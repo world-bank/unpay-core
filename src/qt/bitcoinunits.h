@@ -26,9 +26,9 @@ public:
      */
     enum Unit
     {
-        DASH,
-        mDASH,
-        uDASH,
+        UNP,
+        mUNP,
+        uUNP,
         duffs
     };
 

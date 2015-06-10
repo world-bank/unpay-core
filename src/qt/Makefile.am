@@ -299,7 +299,7 @@ RES_CSS = \
   
 RES_MOVIES = $(wildcard res/movies/spinner-*.png)
 
-DASH_RC = res/unpay-qt-res.rc
+UNP_RC = res/unpay-qt-res.rc
 
 libunpayqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms $(QT_DBUS_INCLUDES)
@@ -324,7 +324,7 @@ if TARGET_DARWIN
   unpay_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  unpay_qt_SOURCES += $(DASH_RC)
+  unpay_qt_SOURCES += $(UNP_RC)
 endif
 unpay_qt_LDADD = libunpayqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
