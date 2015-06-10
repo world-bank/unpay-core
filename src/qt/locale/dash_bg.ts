@@ -3,18 +3,18 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Dash Core</source>
+        <source>About Unpay Core</source>
         <translation>За Дарккойн ядрото</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Dash Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Unpay Core&lt;/b&gt; version</source>
         <translation>&lt;b&gt;Дарккойн ядро&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="94"/>
         <source>Copyright &amp;copy; 2009-2014 The Bitcoin Core developers.
-Copyright &amp;copy; 2014-YYYY The Dash Core developers.</source>
+Copyright &amp;copy; 2014-YYYY The Unpay Core developers.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -45,7 +45,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="31"/>
-        <source>The Dash Core developers</source>
+        <source>The Unpay Core developers</source>
         <translation>Водещи Дарккойн разработчици</translation>
     </message>
     <message>
@@ -351,7 +351,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Dash Core</source>
+        <source>Unpay Core</source>
         <translation>Дарккойн Ядро</translation>
     </message>
     <message>
@@ -423,7 +423,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../bitcoingui.cpp" line="271"/>
         <location filename="../bitcoingui.cpp" line="273"/>
-        <source>&amp;About Dash Core</source>
+        <source>&amp;About Unpay Core</source>
         <translation>&amp;За Дарккойн ядрото</translation>
     </message>
     <message>
@@ -605,7 +605,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="325"/>
-        <source>Show the Dash Core help message to get a list with possible Dash command-line options</source>
+        <source>Show the Unpay Core help message to get a list with possible Dash command-line options</source>
         <translation>Покажи съобщението за помощ на Dash ядрото за да получиш списък на възможните опции за командния ред</translation>
     </message>
     <message>
@@ -1291,12 +1291,12 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="19"/>
-        <source>Dash Core - Command-line options</source>
+        <source>Unpay Core - Command-line options</source>
         <translation>Дарккойн ядро - опции на командния ред</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="69"/>
-        <source>Dash Core</source>
+        <source>Unpay Core</source>
         <translation>Дарккойн ядро</translation>
     </message>
     <message>
@@ -1354,17 +1354,17 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/intro.ui" line="23"/>
-        <source>Welcome to Dash Core.</source>
+        <source>Welcome to Unpay Core.</source>
         <translation>Добре дошли в ядрото на Дарккойн.</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="49"/>
-        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Unpay Core will store its data.</source>
         <translation>Тъй като програмата се стартира за първи път вие може да изберете къде Дарккойн да съхранява своята информация.</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Unpay Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Дарккойн ще свали и съхрани копие на Дарккойн регистъра на блокове. Информацията ще заеме поне 1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
@@ -2173,7 +2173,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../dash.cpp" line="612"/>
-        <source>Dash Core didn&apos;t yet exit safely...</source>
+        <source>Unpay Core didn&apos;t yet exit safely...</source>
         <translation>Ядрото на Дарккойн все още не е приключило ...</translation>
     </message>
     <message>
@@ -3016,7 +3016,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="129"/>
-        <source>Dash Core is shutting down...</source>
+        <source>Unpay Core is shutting down...</source>
         <translation>Дарккойн ядрото се изключва...</translation>
     </message>
     <message>
@@ -3216,7 +3216,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="33"/>
-        <source>Dash Core</source>
+        <source>Unpay Core</source>
         <translation>Дарккойн Ядро</translation>
     </message>
     <message>
@@ -3231,7 +3231,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="36"/>
-        <source>The Dash Core developers</source>
+        <source>The Unpay Core developers</source>
         <translation>Водещи Дарккойн разработчици</translation>
     </message>
     <message>
@@ -3966,7 +3966,7 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="40"/>
-        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Unpay Core is probably already running.</source>
         <translation>Не може да се заключи дата директорията %s. Dash ядрото вече работи.</translation>
     </message>
     <message>
@@ -4132,7 +4132,7 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="133"/>
-        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Unpay Core is probably already running.</source>
         <translation>Не може да се свърже с %s на този компютър. Dash ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
@@ -4336,12 +4336,12 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="200"/>
-        <source>Dash Core Daemon</source>
+        <source>Unpay Core Daemon</source>
         <translation>Dash ядро демон</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="201"/>
-        <source>Dash Core RPC client version</source>
+        <source>Unpay Core RPC client version</source>
         <translation>Dash ядро RPC клиент версия</translation>
     </message>
     <message>
@@ -4601,7 +4601,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="253"/>
-        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
+        <source>Initialization sanity check failed. Unpay Core is shutting down.</source>
         <translation>Инициализационната проверка не успешна. Dash ядрото се изключва.</translation>
     </message>
     <message>
@@ -4926,7 +4926,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="318"/>
-        <source>Send command to Dash Core</source>
+        <source>Send command to Unpay Core</source>
         <translation>Изпрати команда до Дарккойн ядрото</translation>
     </message>
     <message>
@@ -5066,8 +5066,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="346"/>
-        <source>Start Dash Core Daemon</source>
-        <translation>Стартиране на Dash Core  демона</translation>
+        <source>Start Unpay Core Daemon</source>
+        <translation>Стартиране на Unpay Core  демона</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="347"/>

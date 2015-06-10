@@ -1,13 +1,13 @@
-Dash Core 0.11
+Unpay Core 0.11
 ==================
 
-Dash Core tree 0.11.x release notes can be found here:
+Unpay Core tree 0.11.x release notes can be found here:
 
 - [v0.11.2](release-notes/dash/release-notes-0.11.2.md) released Mar/??/2015
 - [v0.11.1](release-notes/dash/release-notes-0.11.1.md) released Feb/10/2015
 - [v0.11.0](release-notes/dash/release-notes-0.11.0.md) released Jan/15/2015
 
-Dash Core tree 0.11.x is a fork of Bitcoin Core tree 0.9.
+Unpay Core tree 0.11.x is a fork of Bitcoin Core tree 0.9.
 
 
 Older releases

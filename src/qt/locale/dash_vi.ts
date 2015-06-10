@@ -3,20 +3,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Dash Core</source>
-        <translation>Giới thiệu về Dash Core</translation>
+        <source>About Unpay Core</source>
+        <translation>Giới thiệu về Unpay Core</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Dash Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Dash Core&lt;/b&gt; phiên bản</translation>
+        <source>&lt;b&gt;Unpay Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Unpay Core&lt;/b&gt; phiên bản</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="94"/>
         <source>Copyright &amp;copy; 2009-2014 The Bitcoin Core developers.
-Copyright &amp;copy; 2014-YYYY The Dash Core developers.</source>
+Copyright &amp;copy; 2014-YYYY The Unpay Core developers.</source>
         <translation>Bản quyền &amp;copy; 2009-2014 Nhóm phát triển Bitcoin Core.
-Bản quyền &amp;copy; 2014-YYYY Nhóm phát triển Dash Core.</translation>
+Bản quyền &amp;copy; 2014-YYYY Nhóm phát triển Unpay Core.</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="111"/>
@@ -46,8 +46,8 @@ Sản phẩm này bao gồm phần mềm được phát triển bởi dự án O
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="31"/>
-        <source>The Dash Core developers</source>
-        <translation>Nhóm phát triển Dash Core</translation>
+        <source>The Unpay Core developers</source>
+        <translation>Nhóm phát triển Unpay Core</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="43"/>
@@ -352,8 +352,8 @@ Sản phẩm này bao gồm phần mềm được phát triển bởi dự án O
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Unpay Core</source>
+        <translation>Unpay Core</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="85"/>
@@ -424,8 +424,8 @@ Sản phẩm này bao gồm phần mềm được phát triển bởi dự án O
     <message>
         <location filename="../bitcoingui.cpp" line="271"/>
         <location filename="../bitcoingui.cpp" line="273"/>
-        <source>&amp;About Dash Core</source>
-        <translation>&amp;Về Dash Core</translation>
+        <source>&amp;About Unpay Core</source>
+        <translation>&amp;Về Unpay Core</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="274"/>
@@ -606,8 +606,8 @@ Sản phẩm này bao gồm phần mềm được phát triển bởi dự án O
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="325"/>
-        <source>Show the Dash Core help message to get a list with possible Dash command-line options</source>
-        <translation>Hiển thị hướng dẫn của Dash Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của Dash.</translation>
+        <source>Show the Unpay Core help message to get a list with possible Dash command-line options</source>
+        <translation>Hiển thị hướng dẫn của Unpay Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của Dash.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="361"/>
@@ -1292,13 +1292,13 @@ Kiểu: %3
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="19"/>
-        <source>Dash Core - Command-line options</source>
-        <translation>Dash Core - Các tuỳ chọn dòng lệnh</translation>
+        <source>Unpay Core - Command-line options</source>
+        <translation>Unpay Core - Các tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="69"/>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Unpay Core</source>
+        <translation>Unpay Core</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="69"/>
@@ -1355,18 +1355,18 @@ Kiểu: %3
     </message>
     <message>
         <location filename="../forms/intro.ui" line="23"/>
-        <source>Welcome to Dash Core.</source>
-        <translation>Chào mừng đến với Dash Core.</translation>
+        <source>Welcome to Unpay Core.</source>
+        <translation>Chào mừng đến với Unpay Core.</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="49"/>
-        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Dash Core sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where Unpay Core will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Unpay Core sẽ lưu dữ liệu.</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dash Core sẽ tải và lưu một bản của sổ cái Dash. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>Unpay Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Unpay Core sẽ tải và lưu một bản của sổ cái Dash. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="69"/>
@@ -2174,8 +2174,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../dash.cpp" line="612"/>
-        <source>Dash Core didn&apos;t yet exit safely...</source>
-        <translation>Dash Core chưa được thoát một cách an toàn...</translation>
+        <source>Unpay Core didn&apos;t yet exit safely...</source>
+        <translation>Unpay Core chưa được thoát một cách an toàn...</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="101"/>
@@ -3017,8 +3017,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="129"/>
-        <source>Dash Core is shutting down...</source>
-        <translation>Dash Core đang được tắt...</translation>
+        <source>Unpay Core is shutting down...</source>
+        <translation>Unpay Core đang được tắt...</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="130"/>
@@ -3217,8 +3217,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="33"/>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Unpay Core</source>
+        <translation>Unpay Core</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="34"/>
@@ -3232,8 +3232,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="36"/>
-        <source>The Dash Core developers</source>
-        <translation>Nhóm phát triển Dash Core</translation>
+        <source>The Unpay Core developers</source>
+        <translation>Nhóm phát triển Unpay Core</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="37"/>
@@ -3967,8 +3967,8 @@ ví dụ: alertnotify=echo %%s | mail -s &quot;Cảnh báo Dash&quot; admin@foo.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="40"/>
-        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. Dash Core có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. Unpay Core is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. Unpay Core có thể đã đang chạy.</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="43"/>
@@ -4132,8 +4132,8 @@ ví dụ: alertnotify=echo %%s | mail -s &quot;Cảnh báo Dash&quot; admin@foo.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="133"/>
-        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. Dash Core có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. Unpay Core is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. Unpay Core có thể đã chạy.</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="136"/>
@@ -4336,13 +4336,13 @@ Nếu tệp không tồn tại, tạo nó với quyền tệp owner-readable-onl
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="200"/>
-        <source>Dash Core Daemon</source>
-        <translation>Dash Core Daemon</translation>
+        <source>Unpay Core Daemon</source>
+        <translation>Unpay Core Daemon</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="201"/>
-        <source>Dash Core RPC client version</source>
-        <translation>Phiên bản phần mềm Dash Core RPC</translation>
+        <source>Unpay Core RPC client version</source>
+        <translation>Phiên bản phần mềm Unpay Core RPC</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="202"/>
@@ -4601,8 +4601,8 @@ Nếu tệp không tồn tại, tạo nó với quyền tệp owner-readable-onl
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="253"/>
-        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Dash Core đang được tắt.</translation>
+        <source>Initialization sanity check failed. Unpay Core is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Unpay Core đang được tắt.</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="254"/>
@@ -4926,8 +4926,8 @@ Nếu tệp không tồn tại, tạo nó với quyền tệp owner-readable-onl
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="318"/>
-        <source>Send command to Dash Core</source>
-        <translation>Gửi lệnh đến Dash Core</translation>
+        <source>Send command to Unpay Core</source>
+        <translation>Gửi lệnh đến Unpay Core</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="319"/>
@@ -5066,8 +5066,8 @@ Nếu tệp không tồn tại, tạo nó với quyền tệp owner-readable-onl
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="346"/>
-        <source>Start Dash Core Daemon</source>
-        <translation>Khởi động Dash Core Daemon</translation>
+        <source>Start Unpay Core Daemon</source>
+        <translation>Khởi động Unpay Core Daemon</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="347"/>

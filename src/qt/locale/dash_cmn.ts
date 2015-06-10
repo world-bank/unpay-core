@@ -3,18 +3,18 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Dash Core</source>
+        <source>About Unpay Core</source>
         <translation>关于达世币核心</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Dash Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Unpay Core&lt;/b&gt; version</source>
         <translation>&lt;b&gt;达世币核心&lt;/b&gt; 版本</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="94"/>
         <source>Copyright &amp;copy; 2009-2014 The Bitcoin Core developers.
-Copyright &amp;copy; 2014-YYYY The Dash Core developers.</source>
+Copyright &amp;copy; 2014-YYYY The Unpay Core developers.</source>
         <translation>版权 &amp;copy; 2009-2014 比特币核心的开发者。
 版权 &amp;copy; 达世币核心的开发者。</translation>
     </message>
@@ -46,7 +46,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="31"/>
-        <source>The Dash Core developers</source>
+        <source>The Unpay Core developers</source>
         <translation>达世币核心开发人员</translation>
     </message>
     <message>
@@ -352,7 +352,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Dash Core</source>
+        <source>Unpay Core</source>
         <translation>达世币核心</translation>
     </message>
     <message>
@@ -424,7 +424,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../bitcoingui.cpp" line="271"/>
         <location filename="../bitcoingui.cpp" line="273"/>
-        <source>&amp;About Dash Core</source>
+        <source>&amp;About Unpay Core</source>
         <translation>关于达世币核心</translation>
     </message>
     <message>
@@ -606,7 +606,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="325"/>
-        <source>Show the Dash Core help message to get a list with possible Dash command-line options</source>
+        <source>Show the Unpay Core help message to get a list with possible Dash command-line options</source>
         <translation>打开达世币核心帮助信息取得可使用的命令行列表</translation>
     </message>
     <message>
@@ -1292,12 +1292,12 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="19"/>
-        <source>Dash Core - Command-line options</source>
+        <source>Unpay Core - Command-line options</source>
         <translation>达世币核心 - 命令行选项</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="69"/>
-        <source>Dash Core</source>
+        <source>Unpay Core</source>
         <translation>达世币核心</translation>
     </message>
     <message>
@@ -1356,17 +1356,17 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/intro.ui" line="23"/>
-        <source>Welcome to Dash Core.</source>
+        <source>Welcome to Unpay Core.</source>
         <translation>欢迎来到达世币核心。</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="49"/>
-        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Unpay Core will store its data.</source>
         <translation>此次为第一次程序启动，你可以选择储存达世币核心数据的路径。</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Unpay Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>达世币核心将会下载并存储达世币数据链。至少有%1GB的数据会保存到此路径下，并且随着时间增长。钱包文件也将存储到此路径下。</translation>
     </message>
     <message>
@@ -2175,7 +2175,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../dash.cpp" line="612"/>
-        <source>Dash Core didn&apos;t yet exit safely...</source>
+        <source>Unpay Core didn&apos;t yet exit safely...</source>
         <translation>达世币核心还未安全退出...</translation>
     </message>
     <message>
@@ -3019,7 +3019,7 @@ XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="129"/>
-        <source>Dash Core is shutting down...</source>
+        <source>Unpay Core is shutting down...</source>
         <translation>达世币核心正在关闭...</translation>
     </message>
     <message>
@@ -3220,7 +3220,7 @@ XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="33"/>
-        <source>Dash Core</source>
+        <source>Unpay Core</source>
         <translation>达世币核心</translation>
     </message>
     <message>
@@ -3235,7 +3235,7 @@ XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="36"/>
-        <source>The Dash Core developers</source>
+        <source>The Unpay Core developers</source>
         <translation>达世币核心开发人员</translation>
     </message>
     <message>
@@ -3960,7 +3960,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dash Alert&quot; admin@foo.com
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="40"/>
-        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Unpay Core is probably already running.</source>
         <translation>不能获得锁定的数据目录 %s. 达世币核心可能已经在运行。</translation>
     </message>
     <message>
@@ -4125,7 +4125,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dash Alert&quot; admin@foo.com
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="133"/>
-        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Unpay Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -4327,12 +4327,12 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="200"/>
-        <source>Dash Core Daemon</source>
+        <source>Unpay Core Daemon</source>
         <translation>达世币核心后台程序</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="201"/>
-        <source>Dash Core RPC client version</source>
+        <source>Unpay Core RPC client version</source>
         <translation>达世币核心RPC客户端版本</translation>
     </message>
     <message>
@@ -4592,7 +4592,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="253"/>
-        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
+        <source>Initialization sanity check failed. Unpay Core is shutting down.</source>
         <translation>初始化检查失败。达世币核心正在关闭。</translation>
     </message>
     <message>
@@ -4917,7 +4917,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="318"/>
-        <source>Send command to Dash Core</source>
+        <source>Send command to Unpay Core</source>
         <translation>发送命令至达世币核心</translation>
     </message>
     <message>
@@ -5057,7 +5057,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="346"/>
-        <source>Start Dash Core Daemon</source>
+        <source>Start Unpay Core Daemon</source>
         <translation>启动达世币核心后台程序</translation>
     </message>
     <message>

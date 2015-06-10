@@ -3,20 +3,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Dash Core</source>
-        <translation>Acerca do Dash Core</translation>
+        <source>About Unpay Core</source>
+        <translation>Acerca do Unpay Core</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Dash Core&lt;/b&gt; version</source>
-        <translation>Versão do &lt;b&gt;Dash Core&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Unpay Core&lt;/b&gt; version</source>
+        <translation>Versão do &lt;b&gt;Unpay Core&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="94"/>
         <source>Copyright &amp;copy; 2009-2014 The Bitcoin Core developers.
-Copyright &amp;copy; 2014-YYYY The Dash Core developers.</source>
+Copyright &amp;copy; 2014-YYYY The Unpay Core developers.</source>
         <translation>Copyright &amp;copy; 2009-2014 Os programadores Bitcoin Core.
-Copyright &amp;copy; 2014-YYYY Os programadores Dash Core.</translation>
+Copyright &amp;copy; 2014-YYYY Os programadores Unpay Core.</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="111"/>
@@ -46,8 +46,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="31"/>
-        <source>The Dash Core developers</source>
-        <translation>Os programadores Dash Core</translation>
+        <source>The Unpay Core developers</source>
+        <translation>Os programadores Unpay Core</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="43"/>
@@ -352,8 +352,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Unpay Core</source>
+        <translation>Unpay Core</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="85"/>
@@ -424,8 +424,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <message>
         <location filename="../bitcoingui.cpp" line="271"/>
         <location filename="../bitcoingui.cpp" line="273"/>
-        <source>&amp;About Dash Core</source>
-        <translation>&amp;Acerca do Dash Core</translation>
+        <source>&amp;About Unpay Core</source>
+        <translation>&amp;Acerca do Unpay Core</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="274"/>
@@ -606,8 +606,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="325"/>
-        <source>Show the Dash Core help message to get a list with possible Dash command-line options</source>
-        <translation>Mostra a mensagem de ajuda do Dash Core para obter a lista com as possíveis opções de linha de comandos</translation>
+        <source>Show the Unpay Core help message to get a list with possible Dash command-line options</source>
+        <translation>Mostra a mensagem de ajuda do Unpay Core para obter a lista com as possíveis opções de linha de comandos</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="361"/>
@@ -1292,13 +1292,13 @@ Endereço: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="19"/>
-        <source>Dash Core - Command-line options</source>
-        <translation>Dash Core - Opções de linha de comandos</translation>
+        <source>Unpay Core - Command-line options</source>
+        <translation>Unpay Core - Opções de linha de comandos</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="69"/>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Unpay Core</source>
+        <translation>Unpay Core</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="69"/>
@@ -1355,18 +1355,18 @@ Endereço: %4
     </message>
     <message>
         <location filename="../forms/intro.ui" line="23"/>
-        <source>Welcome to Dash Core.</source>
-        <translation>Bem-vindo ao Dash Core.</translation>
+        <source>Welcome to Unpay Core.</source>
+        <translation>Bem-vindo ao Unpay Core.</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="49"/>
-        <source>As this is the first time the program is launched, you can choose where Dash Core will store its data.</source>
-        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Dash Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Unpay Core will store its data.</source>
+        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Unpay Core irá guardar os seus dados.</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>Dash Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O cliente Dash Core irá descarregar e guardar uma copia da cadeia de blocos Dash. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
+        <source>Unpay Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O cliente Unpay Core irá descarregar e guardar uma copia da cadeia de blocos Dash. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="69"/>
@@ -2174,8 +2174,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../dash.cpp" line="612"/>
-        <source>Dash Core didn&apos;t yet exit safely...</source>
-        <translation>Dash Core ainda não terminou de forma segura...</translation>
+        <source>Unpay Core didn&apos;t yet exit safely...</source>
+        <translation>Unpay Core ainda não terminou de forma segura...</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="101"/>
@@ -3017,8 +3017,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="129"/>
-        <source>Dash Core is shutting down...</source>
-        <translation>O Dash Core está a desligar...</translation>
+        <source>Unpay Core is shutting down...</source>
+        <translation>O Unpay Core está a desligar...</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="130"/>
@@ -3217,8 +3217,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="33"/>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Unpay Core</source>
+        <translation>Unpay Core</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="34"/>
@@ -3232,8 +3232,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="36"/>
-        <source>The Dash Core developers</source>
-        <translation>Os programadores Dash Core</translation>
+        <source>The Unpay Core developers</source>
+        <translation>Os programadores Unpay Core</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="37"/>
@@ -3966,8 +3966,8 @@ exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Dash&quot; admin@foo.com</t
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="40"/>
-        <source>Cannot obtain a lock on data directory %s. Dash Core is probably already running.</source>
-        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Dash Core já se encontra em execução.</translation>
+        <source>Cannot obtain a lock on data directory %s. Unpay Core is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Unpay Core já se encontra em execução.</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="43"/>
@@ -4131,8 +4131,8 @@ exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Dash&quot; admin@foo.com</t
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="133"/>
-        <source>Unable to bind to %s on this computer. Dash Core is probably already running.</source>
-        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Dash Core já está a ser executado.</translation>
+        <source>Unable to bind to %s on this computer. Unpay Core is probably already running.</source>
+        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Unpay Core já está a ser executado.</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="136"/>
@@ -4335,13 +4335,13 @@ Se o ficheiro não existir, deve criá-lo só com permissões de leitura para o 
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="200"/>
-        <source>Dash Core Daemon</source>
-        <translation>Serviço Dash Core</translation>
+        <source>Unpay Core Daemon</source>
+        <translation>Serviço Unpay Core</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="201"/>
-        <source>Dash Core RPC client version</source>
-        <translation>Versão do cliente RPC Dash Core</translation>
+        <source>Unpay Core RPC client version</source>
+        <translation>Versão do cliente RPC Unpay Core</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="202"/>
@@ -4600,8 +4600,8 @@ Se o ficheiro não existir, deve criá-lo só com permissões de leitura para o 
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="253"/>
-        <source>Initialization sanity check failed. Dash Core is shutting down.</source>
-        <translation>A verificação de consistência no arranque falhou. O Dash Core está a encerrar.</translation>
+        <source>Initialization sanity check failed. Unpay Core is shutting down.</source>
+        <translation>A verificação de consistência no arranque falhou. O Unpay Core está a encerrar.</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="254"/>
@@ -4925,8 +4925,8 @@ Se o ficheiro não existir, deve criá-lo só com permissões de leitura para o 
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="318"/>
-        <source>Send command to Dash Core</source>
-        <translation>Enviar comando para o Dash Core</translation>
+        <source>Send command to Unpay Core</source>
+        <translation>Enviar comando para o Unpay Core</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="319"/>
@@ -5065,8 +5065,8 @@ Se o ficheiro não existir, deve criá-lo só com permissões de leitura para o 
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="346"/>
-        <source>Start Dash Core Daemon</source>
-        <translation>Iniciar o Serviço Dash Core</translation>
+        <source>Start Unpay Core Daemon</source>
+        <translation>Iniciar o Serviço Unpay Core</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="347"/>

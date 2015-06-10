@@ -43,9 +43,9 @@ static bool AppInitRPC(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("--help"))
     {
         // First part of help message is specific to RPC client
-        std::string strUsage = _("Dash Core RPC client version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Unpay Core RPC client version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  dash-cli [options] <command> [params]  " + _("Send command to Dash Core") + "\n" +
+              "  dash-cli [options] <command> [params]  " + _("Send command to Unpay Core") + "\n" +
               "  dash-cli [options] help                " + _("List commands") + "\n" +
               "  dash-cli [options] help <command>      " + _("Get help for a command") + "\n";
 

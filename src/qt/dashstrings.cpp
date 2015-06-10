@@ -38,7 +38,7 @@ QT_TRANSLATE_NOOP("dash-core", ""
 "Bind to given address and always listen on it. Use [host]:port notation for "
 "IPv6"),
 QT_TRANSLATE_NOOP("dash-core", ""
-"Cannot obtain a lock on data directory %s. Dash Core is probably already "
+"Cannot obtain a lock on data directory %s. Unpay Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("dash-core", ""
 "Continuously rate-limit free transactions to <n>*1000 bytes per minute "
@@ -131,7 +131,7 @@ QT_TRANSLATE_NOOP("dash-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
 "mining or merchant applications"),
 QT_TRANSLATE_NOOP("dash-core", ""
-"Unable to bind to %s on this computer. Dash Core is probably already "
+"Unable to bind to %s on this computer. Unpay Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("dash-core", ""
 "Unable to locate enough Darksend denominated funds for this transaction."),
@@ -197,8 +197,8 @@ QT_TRANSLATE_NOOP("dash-core", "Connect to KeePassHttp on port <port> (default: 
 QT_TRANSLATE_NOOP("dash-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("dash-core", "Connection options:"),
 QT_TRANSLATE_NOOP("dash-core", "Corrupted block database detected"),
-QT_TRANSLATE_NOOP("dash-core", "Dash Core Daemon"),
-QT_TRANSLATE_NOOP("dash-core", "Dash Core RPC client version"),
+QT_TRANSLATE_NOOP("dash-core", "Unpay Core Daemon"),
+QT_TRANSLATE_NOOP("dash-core", "Unpay Core RPC client version"),
 QT_TRANSLATE_NOOP("dash-core", "Darksend is disabled."),
 QT_TRANSLATE_NOOP("dash-core", "Darksend options:"),
 QT_TRANSLATE_NOOP("dash-core", "Debugging/Testing options:"),
@@ -250,7 +250,7 @@ QT_TRANSLATE_NOOP("dash-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("dash-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("dash-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("dash-core", "Information"),
-QT_TRANSLATE_NOOP("dash-core", "Initialization sanity check failed. Dash Core is shutting down."),
+QT_TRANSLATE_NOOP("dash-core", "Initialization sanity check failed. Unpay Core is shutting down."),
 QT_TRANSLATE_NOOP("dash-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("dash-core", "InstantX options:"),
 QT_TRANSLATE_NOOP("dash-core", "Insufficient funds"),
@@ -315,7 +315,7 @@ QT_TRANSLATE_NOOP("dash-core", "Run a thread to flush wallet periodically (defau
 QT_TRANSLATE_NOOP("dash-core", "Run in the background as a daemon and accept commands"),
 QT_TRANSLATE_NOOP("dash-core", "SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("dash-core", "Select SOCKS version for -proxy (4 or 5, default: 5)"),
-QT_TRANSLATE_NOOP("dash-core", "Send command to Dash Core"),
+QT_TRANSLATE_NOOP("dash-core", "Send command to Unpay Core"),
 QT_TRANSLATE_NOOP("dash-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
 QT_TRANSLATE_NOOP("dash-core", "Send trace/debug info to console instead of debug.log file"),
 QT_TRANSLATE_NOOP("dash-core", "Server certificate file (default: server.cert)"),
@@ -343,7 +343,7 @@ QT_TRANSLATE_NOOP("dash-core", "Specify pid file (default: dashd.pid)"),
 QT_TRANSLATE_NOOP("dash-core", "Specify wallet file (within data directory)"),
 QT_TRANSLATE_NOOP("dash-core", "Specify your own public address"),
 QT_TRANSLATE_NOOP("dash-core", "Spend unconfirmed change when sending transactions (default: 1)"),
-QT_TRANSLATE_NOOP("dash-core", "Start Dash Core Daemon"),
+QT_TRANSLATE_NOOP("dash-core", "Start Unpay Core Daemon"),
 QT_TRANSLATE_NOOP("dash-core", "System error: "),
 QT_TRANSLATE_NOOP("dash-core", "This help message"),
 QT_TRANSLATE_NOOP("dash-core", "This is intended for regression testing tools and app development."),

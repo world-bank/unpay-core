@@ -1,11 +1,11 @@
-Dash Core staging tree 0.11
+Unpay Core staging tree 0.11
 ===============================
 
 http://www.dashpay.io
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
-Copyright (c) 2014-2015 Dash Core Developers
+Copyright (c) 2014-2015 Unpay Core Developers
 
 
 What is Dash?
@@ -14,17 +14,17 @@ What is Dash?
 Dash is an experimental new digital currency that enables anonymous, instant
 payments to anyone, anywhere in the world. Dash uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Dash Core is the name of open
+are carried out collectively by the network. Unpay Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Dash Core software, see http://www.dashpay.io/downloads.
+the Unpay Core software, see http://www.dashpay.io/downloads.
 
 
 License
 -------
 
-Dash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Unpay Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 
@@ -77,7 +77,7 @@ that run in -regtest mode.
 
 **DEBUG_LOCKORDER**
 
-Dash Core is a multithreaded application, and deadlocks or other multithreading bugs
+Unpay Core is a multithreaded application, and deadlocks or other multithreading bugs
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of what locks
 are held, and adds warning to the debug.log file if inconsistencies are detected.

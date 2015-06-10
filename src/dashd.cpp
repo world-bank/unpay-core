@@ -96,11 +96,11 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to dashd / RPC client
-            std::string strUsage = _("Dash Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("Unpay Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  dashd [options]                     " + _("Start Dash Core Daemon") + "\n" +
+                  "  dashd [options]                     " + _("Start Unpay Core Daemon") + "\n" +
                 _("Usage (deprecated, use dash-cli):") + "\n" +
-                  "  dashd [options] <command> [params]  " + _("Send command to Dash Core") + "\n" +
+                  "  dashd [options] <command> [params]  " + _("Send command to Unpay Core") + "\n" +
                   "  dashd [options] help                " + _("List commands") + "\n" +
                   "  dashd [options] help <command>      " + _("Get help for a command") + "\n";
 

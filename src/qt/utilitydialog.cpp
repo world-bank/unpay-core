@@ -28,7 +28,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
 
     // Set current copyright year
     ui->copyrightLabel->setText(tr("Copyright") + QString(" &copy; 2009-2014 ") + tr("The Bitcoin Core developers") + QString("<br />")
-                              + tr("Copyright") + QString(" &copy; 2014-%1 ").arg(COPYRIGHT_YEAR) + tr("The Dash Core developers"));
+                              + tr("Copyright") + QString(" &copy; 2014-%1 ").arg(COPYRIGHT_YEAR) + tr("The Unpay Core developers"));
 }
 
 void AboutDialog::setModel(ClientModel *model)
@@ -66,7 +66,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent) :
     ui->setupUi(this);
     GUIUtil::restoreWindowGeometry("nHelpMessageDialogWindow", this->size(), this);
 
-    header = tr("Dash Core") + " " + tr("version") + " " +
+    header = tr("Unpay Core") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
         "  dash-qt [" + tr("command-line options") + "]                     " + "\n";
@@ -126,7 +126,7 @@ void ShutdownWindow::showShutdownWindow(BitcoinGUI *window)
     QWidget *shutdownWindow = new QWidget();
     QVBoxLayout *layout = new QVBoxLayout();
     layout->addWidget(new QLabel(
-        tr("Dash Core is shutting down...") + "<br /><br />" +
+        tr("Unpay Core is shutting down...") + "<br /><br />" +
         tr("Do not shut down the computer until this window disappears.")));
     shutdownWindow->setLayout(layout);
 
