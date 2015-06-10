@@ -62,7 +62,7 @@ def initialize_chain(test_dir):
     """
     Create (or copy from cache) a 200-block-long chain and
     4 wallets.
-    dashd and dash-cli must be in search path.
+    unpayd and unpay-cli must be in search path.
     """
 
     if not os.path.isdir(os.path.join("cache", "node0")):
@@ -77,11 +77,11 @@ def initialize_chain(test_dir):
                 f.write("rpcpassword=rt\n");
                 f.write("port="+str(START_P2P_PORT+i)+"\n");
                 f.write("rpcport="+str(START_RPC_PORT+i)+"\n");
-            args = [ "dashd", "-keypool=1", "-datadir="+datadir ]
+            args = [ "unpayd", "-keypool=1", "-datadir="+datadir ]
             if i > 0:
                 args.append("-connect=127.0.0.1:"+str(START_P2P_PORT))
             bitcoind_processes.append(subprocess.Popen(args))
-            subprocess.check_call([ "dash-cli", "-datadir="+datadir,
+            subprocess.check_call([ "unpay-cli", "-datadir="+datadir,
                                     "-rpcwait", "getblockcount"], stdout=devnull)
         devnull.close()
         rpcs = []
@@ -118,9 +118,9 @@ def start_nodes(num_nodes, dir):
     devnull = open("/dev/null", "w+")
     for i in range(num_nodes):
         datadir = os.path.join(dir, "node"+str(i))
-        args = [ "dashd", "-datadir="+datadir ]
+        args = [ "unpayd", "-datadir="+datadir ]
         bitcoind_processes.append(subprocess.Popen(args))
-        subprocess.check_call([ "dash-cli", "-datadir="+datadir,
+        subprocess.check_call([ "unpay-cli", "-datadir="+datadir,
                                   "-rpcwait", "getblockcount"], stdout=devnull)
     devnull.close()
     # Create&return JSON-RPC connections

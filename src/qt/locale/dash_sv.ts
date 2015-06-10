@@ -5050,7 +5050,7 @@ Om filen inte existerar, skapa den och ge inga andra än ägaren läsarrättighe
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="342"/>
-        <source>Specify pid file (default: dashd.pid)</source>
+        <source>Specify pid file (default: unpayd.pid)</source>
         <translation>Specificera pid-fil (standardvärde: dash.pid)</translation>
     </message>
     <message>
@@ -5165,8 +5165,8 @@ Om filen inte existerar, skapa den och ge inga andra än ägaren läsarrättighe
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="365"/>
-        <source>Usage (deprecated, use dash-cli):</source>
-        <translation>Användning (ta avstånd från, använd dash-cli):</translation>
+        <source>Usage (deprecated, use unpay-cli):</source>
+        <translation>Användning (ta avstånd från, använd unpay-cli):</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="366"/>

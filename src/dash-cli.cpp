@@ -45,9 +45,9 @@ static bool AppInitRPC(int argc, char* argv[])
         // First part of help message is specific to RPC client
         std::string strUsage = _("Unpay Core RPC client version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  dash-cli [options] <command> [params]  " + _("Send command to Unpay Core") + "\n" +
-              "  dash-cli [options] help                " + _("List commands") + "\n" +
-              "  dash-cli [options] help <command>      " + _("Get help for a command") + "\n";
+              "  unpay-cli [options] <command> [params]  " + _("Send command to Unpay Core") + "\n" +
+              "  unpay-cli [options] help                " + _("List commands") + "\n" +
+              "  unpay-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
         strUsage += "\n" + HelpMessageCli(true);
 

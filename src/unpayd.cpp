@@ -95,14 +95,14 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to dashd / RPC client
+            // First part of help message is specific to unpayd / RPC client
             std::string strUsage = _("Unpay Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  dashd [options]                     " + _("Start Unpay Core Daemon") + "\n" +
-                _("Usage (deprecated, use dash-cli):") + "\n" +
-                  "  dashd [options] <command> [params]  " + _("Send command to Unpay Core") + "\n" +
-                  "  dashd [options] help                " + _("List commands") + "\n" +
-                  "  dashd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  unpayd [options]                     " + _("Start Unpay Core Daemon") + "\n" +
+                _("Usage (deprecated, use unpay-cli):") + "\n" +
+                  "  unpayd [options] <command> [params]  " + _("Send command to Unpay Core") + "\n" +
+                  "  unpayd [options] help                " + _("List commands") + "\n" +
+                  "  unpayd [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
             strUsage += "\n" + HelpMessageCli(false);
@@ -186,7 +186,7 @@ int main(int argc, char* argv[])
 
     bool fRet = false;
 
-    // Connect dashd signal handlers
+    // Connect unpayd signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);

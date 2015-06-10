@@ -5049,8 +5049,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="342"/>
-        <source>Specify pid file (default: dashd.pid)</source>
-        <translation>指定 pid 文件 (預設: dashd.pid)</translation>
+        <source>Specify pid file (default: unpayd.pid)</source>
+        <translation>指定 pid 文件 (預設: unpayd.pid)</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="343"/>
@@ -5164,8 +5164,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="365"/>
-        <source>Usage (deprecated, use dash-cli):</source>
-        <translation>用法 (不推薦，使用dash-cli):</translation>
+        <source>Usage (deprecated, use unpay-cli):</source>
+        <translation>用法 (不推薦，使用unpay-cli):</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="366"/>

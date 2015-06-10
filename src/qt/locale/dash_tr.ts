@@ -5033,7 +5033,7 @@ Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluştur
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="342"/>
-        <source>Specify pid file (default: dashd.pid)</source>
+        <source>Specify pid file (default: unpayd.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -5148,7 +5148,7 @@ Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluştur
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="365"/>
-        <source>Usage (deprecated, use dash-cli):</source>
+        <source>Usage (deprecated, use unpay-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

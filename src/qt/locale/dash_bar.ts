@@ -5055,7 +5055,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="342"/>
-        <source>Specify pid file (default: dashd.pid)</source>
+        <source>Specify pid file (default: unpayd.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -5170,8 +5170,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="365"/>
-        <source>Usage (deprecated, use dash-cli):</source>
-        <translation>Des gibds scho lang nimma, mai machsd hald &quot;dash-cli&quot; wi sies kört. </translation>
+        <source>Usage (deprecated, use unpay-cli):</source>
+        <translation>Des gibds scho lang nimma, mai machsd hald &quot;unpay-cli&quot; wi sies kört. </translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="366"/>

@@ -69,7 +69,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent) :
     header = tr("Unpay Core") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  dash-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  unpay-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage(HMM_BITCOIN_QT));
 

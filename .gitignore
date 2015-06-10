@@ -2,8 +2,8 @@
 
 *.exe
 src/dash
-src/dashd
-src/dash-cli
+src/unpayd
+src/unpay-cli
 src/test/test_dash
 src/qt/test/test_dash-qt
 
@@ -51,7 +51,7 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-dash-qt
+unpay-qt
 Dash-Qt.app
 
 # Unit-tests

@@ -5045,8 +5045,8 @@ Jeżeli plik ten nie istnieje, stwórz go z uprawnieniami tylko do odczytu przez
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="342"/>
-        <source>Specify pid file (default: dashd.pid)</source>
-        <translation>Sprecyjzuj plik pid (domyślny: dashd.pid)</translation>
+        <source>Specify pid file (default: unpayd.pid)</source>
+        <translation>Sprecyjzuj plik pid (domyślny: unpayd.pid)</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="343"/>
@@ -5160,8 +5160,8 @@ Jeżeli plik ten nie istnieje, stwórz go z uprawnieniami tylko do odczytu przez
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="365"/>
-        <source>Usage (deprecated, use dash-cli):</source>
-        <translation>Użycie (niewłaściwy, użyj dash-cli):</translation>
+        <source>Usage (deprecated, use unpay-cli):</source>
+        <translation>Użycie (niewłaściwy, użyj unpay-cli):</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="366"/>

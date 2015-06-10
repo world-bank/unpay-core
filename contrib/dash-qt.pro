@@ -1,4 +1,4 @@
-# lupdate-qt4 ./dash-qt.pro -ts ../src/qt/locale/dash_en.ts
+# lupdate-qt4 ./unpay-qt.pro -ts ../src/qt/locale/dash_en.ts
 
 HEADERS += \
     ../src/activemasternode.h \
@@ -135,8 +135,8 @@ SOURCES += \
     ../src/core.cpp \
     ../src/crypter.cpp \
     ../src/cubehash.c \
-    ../src/dash-cli.cpp \
-    ../src/dashd.cpp \
+    ../src/unpay-cli.cpp \
+    ../src/unpayd.cpp \
     ../src/darksend.cpp \
     ../src/db.cpp \
     ../src/echo.c \

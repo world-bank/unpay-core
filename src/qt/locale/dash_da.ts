@@ -5033,7 +5033,7 @@ Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren læserettigh
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="342"/>
-        <source>Specify pid file (default: dashd.pid)</source>
+        <source>Specify pid file (default: unpayd.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -5148,7 +5148,7 @@ Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren læserettigh
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="365"/>
-        <source>Usage (deprecated, use dash-cli):</source>
+        <source>Usage (deprecated, use unpay-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>

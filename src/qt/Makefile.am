@@ -5,7 +5,7 @@ AM_CPPFLAGS += -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt/forms \
   $(PROTOBUF_CFLAGS) \
   $(QR_CFLAGS)
-bin_PROGRAMS = dash-qt
+bin_PROGRAMS = unpay-qt
 noinst_LIBRARIES = libdashqt.a
 SUBDIRS = . $(BUILD_TEST_QT)
 DIST_SUBDIRS = . test
@@ -299,7 +299,7 @@ RES_CSS = \
   
 RES_MOVIES = $(wildcard res/movies/spinner-*.png)
 
-DASH_RC = res/dash-qt-res.rc
+DASH_RC = res/unpay-qt-res.rc
 
 libdashqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms $(QT_DBUS_INCLUDES)
@@ -316,7 +316,7 @@ BUILT_SOURCES = $(nodist_libdashqt_a_SOURCES)
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# dash-qt binary #
+# unpay-qt binary #
 dash_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
 dash_qt_SOURCES = dash.cpp

@@ -5049,7 +5049,7 @@ Jos tiedostoa ei ole, niin luo se ainoastaan omistajan kirjoitusoikeuksin.</tran
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="342"/>
-        <source>Specify pid file (default: dashd.pid)</source>
+        <source>Specify pid file (default: unpayd.pid)</source>
         <translation>Määritä pid tiedosto (oletus: masternode.pid)</translation>
     </message>
     <message>
@@ -5164,8 +5164,8 @@ Jos tiedostoa ei ole, niin luo se ainoastaan omistajan kirjoitusoikeuksin.</tran
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="365"/>
-        <source>Usage (deprecated, use dash-cli):</source>
-        <translation>Käyttö (käytöstä poistunut, käytä dash-cli):</translation>
+        <source>Usage (deprecated, use unpay-cli):</source>
+        <translation>Käyttö (käytöstä poistunut, käytä unpay-cli):</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="366"/>

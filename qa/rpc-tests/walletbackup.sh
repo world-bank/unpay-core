@@ -40,8 +40,8 @@ if [ $# -lt 1 ]; then
         exit 1
 fi
 
-BITCOIND=${1}/dashd
-CLI=${1}/dash-cli
+BITCOIND=${1}/unpayd
+CLI=${1}/unpay-cli
 
 DIR="${BASH_SOURCE%/*}"
 SENDANDWAIT="${DIR}/send.sh"

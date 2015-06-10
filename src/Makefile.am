@@ -13,11 +13,11 @@ endif
 bin_PROGRAMS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += dashd
+  bin_PROGRAMS += unpayd
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += dash-cli
+  bin_PROGRAMS += unpay-cli
 endif
 
 SUBDIRS = . $(BUILD_QT) $(BUILD_TEST)
@@ -195,7 +195,7 @@ libdash_cli_a_SOURCES = \
 nodist_libdash_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
 #
 
-# dashd binary #
+# unpayd binary #
 dashd_LDADD = \
   libdash_server.a \
   libdash_cli.a \
@@ -205,26 +205,26 @@ dashd_LDADD = \
 if ENABLE_WALLET
 dashd_LDADD += libdash_wallet.a
 endif
-dashd_SOURCES = dashd.cpp
+dashd_SOURCES = unpayd.cpp
 #
 
 if TARGET_WINDOWS
-dashd_SOURCES += dashd-res.rc
+dashd_SOURCES += unpayd-res.rc
 endif
 
 AM_CPPFLAGS += $(BDB_CPPFLAGS)
 dashd_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
 
-# dash-cli binary #
+# unpay-cli binary #
 dash_cli_LDADD = \
   libdash_cli.a \
   libdash_common.a \
   $(BOOST_LIBS)
-dash_cli_SOURCES = dash-cli.cpp
+dash_cli_SOURCES = unpay-cli.cpp
 #
 
 if TARGET_WINDOWS
-dash_cli_SOURCES += dash-cli-res.rc
+dash_cli_SOURCES += unpay-cli-res.rc
 endif
 
 # NOTE: This dependency is not strictly necessary, but without it make may try to build both in parallel, which breaks the LevelDB build system in a race

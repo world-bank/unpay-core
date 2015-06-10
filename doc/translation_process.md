@@ -7,7 +7,7 @@ handle those translations.
 Files and Folders
 -----------------
 
-### dash-qt.pro
+### unpay-qt.pro
 
 This file takes care of generating `.qm` files from `.ts` files. It is mostly
 automated.
@@ -38,7 +38,7 @@ so make sure that utility is installed (ie, `apt-get install gettext` on
 Ubuntu/Debian). Once this has been updated, lupdate-qt4 (included in the Qt SDK)
 is used to update dash_en.ts. Simply run:
 
-    lupdate-qt4 ./contrib/dash-qt.pro -ts ./src/qt/locale/dash_en.ts
+    lupdate-qt4 ./contrib/unpay-qt.pro -ts ./src/qt/locale/dash_en.ts
 
 ##### Handling of plurals in the source file
 

@@ -5046,8 +5046,8 @@ Nếu tệp không tồn tại, tạo nó với quyền tệp owner-readable-onl
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="342"/>
-        <source>Specify pid file (default: dashd.pid)</source>
-        <translation>Xác định tệp pid (ngầm định: dashd.pid)</translation>
+        <source>Specify pid file (default: unpayd.pid)</source>
+        <translation>Xác định tệp pid (ngầm định: unpayd.pid)</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="343"/>
@@ -5161,8 +5161,8 @@ Nếu tệp không tồn tại, tạo nó với quyền tệp owner-readable-onl
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="365"/>
-        <source>Usage (deprecated, use dash-cli):</source>
-        <translation>Cách sử dụng (đã từ bỏ, sử dụng dash-cli):</translation>
+        <source>Usage (deprecated, use unpay-cli):</source>
+        <translation>Cách sử dụng (đã từ bỏ, sử dụng unpay-cli):</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="366"/>

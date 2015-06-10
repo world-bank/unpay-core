@@ -5050,7 +5050,7 @@ Unpay Core wird heruntergefahren.</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="342"/>
-        <source>Specify pid file (default: dashd.pid)</source>
+        <source>Specify pid file (default: unpayd.pid)</source>
         <translation>pid-Datei angeben (Standard: dash.pid)</translation>
     </message>
     <message>
@@ -5165,7 +5165,7 @@ Unpay Core wird heruntergefahren.</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="365"/>
-        <source>Usage (deprecated, use dash-cli):</source>
+        <source>Usage (deprecated, use unpay-cli):</source>
         <translation>Benutzung (veraltet, bitte Dash-cli verwenden):</translation>
     </message>
     <message>
