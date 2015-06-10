@@ -121,7 +121,7 @@ Release Process
     ./bin/gbuild --commit unpay=v${VERSION} ../unpay/contrib/gitian-descriptors/gitian-osx-bitcoin.yml
     ./bin/gsign --signer $SIGNER --release ${VERSION}-osx --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx-bitcoin.yml
 	pushd build/out
-	mv Dash-Qt.dmg ../../../
+	mv Unpay-Qt.dmg ../../../
 	popd
 	popd
 

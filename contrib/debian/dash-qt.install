@@ -1,6 +1,6 @@
 usr/local/bin/unpay-qt usr/bin
-share/pixmaps/dash32.xpm usr/share/pixmaps
-share/pixmaps/dash16.xpm usr/share/pixmaps
-share/pixmaps/dash128.png usr/share/pixmaps
+share/pixmaps/unpay32.xpm usr/share/pixmaps
+share/pixmaps/unpay16.xpm usr/share/pixmaps
+share/pixmaps/unpay128.png usr/share/pixmaps
 debian/unpay-qt.desktop usr/share/applications
 debian/unpay-qt.protocol usr/share/kde4/services/

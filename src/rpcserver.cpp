@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2014-2015 The Unpay developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -208,10 +208,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Dash server.");
+            "\nStop Unpay server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Dash server stopping";
+    return "Unpay server stopping";
 }
 
 
@@ -270,7 +270,7 @@ static const CRPCCommand vRPCCommands[] =
     { "validateaddress",        &validateaddress,        true,      false,      false }, /* uses wallet if enabled */
     { "verifymessage",          &verifymessage,          false,     false,      false },
 
-    /* Dash features */
+    /* Unpay features */
     { "spork",                  &spork,                  true,      false,      false },
     { "masternode",             &masternode,             true,      false,      true  },
     { "masternodelist",         &masternodelist,         true,      false,      false },
@@ -526,13 +526,13 @@ void StartRPCThreads()
             _("%s, you must set a rpcpassword in the configuration file:\n"
               "%s\n"
               "It is recommended you use the following random password:\n"
-              "rpcuser=dashrpc\n"
+              "rpcuser=unpayrpc\n"
               "rpcpassword=%s\n"
               "(you do not need to remember this password)\n"
               "The username and password MUST NOT be the same.\n"
               "If the file does not exist, create it with owner-readable-only file permissions.\n"
               "It is also recommended to set alertnotify so you are notified of problems;\n"
-              "for example: alertnotify=echo %%s | mail -s \"Dash Alert\" admin@foo.com\n"),
+              "for example: alertnotify=echo %%s | mail -s \"Unpay Alert\" admin@foo.com\n"),
                 strWhatAmI,
                 GetConfigFile().string(),
                 EncodeBase58(&rand_pwd[0],&rand_pwd[0]+32)),

@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build Dash in Unix. 
+Some notes on how to build Unpay in Unix. 
 
 To Build
 ---------------------
@@ -91,7 +91,7 @@ Optional:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build Dash-Qt, make sure that the required packages for Qt development
+If you want to build Unpay-Qt, make sure that the required packages for Qt development
 are installed. Either Qt 4 or Qt 5 are necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 4 will be used. Pass `--with-gui=qt5` to configure to choose Qt5.
 To build without GUI pass `--without-gui`.
@@ -167,7 +167,7 @@ If you need to build Boost yourself:
 
 Security
 --------
-To help make your Dash installation more secure by making certain attacks impossible to
+To help make your Unpay installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
 

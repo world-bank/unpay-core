@@ -7,7 +7,7 @@ SetCompressor /SOLID lzma
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
 !define COMPANY "Unpay Core project"
-!define URL https://www.dashpay.io/
+!define URL https://www.unpaypay.io/
 
 # MUI Symbol Definitions
 !define MUI_ICON "@abs_top_srcdir@/share/pixmaps/bitcoin.ico"
@@ -50,9 +50,9 @@ Var StartMenuGroup
 # Installer attributes
 OutFile @abs_top_srcdir@/unpay-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
-InstallDir $PROGRAMFILES64\Dash
+InstallDir $PROGRAMFILES64\Unpay
 !else
-InstallDir $PROGRAMFILES\Dash
+InstallDir $PROGRAMFILES\Unpay
 !endif
 CRCCheck on
 XPStyle on
@@ -107,7 +107,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "unpay" "URL Protocol" ""
-    WriteRegStr HKCR "unpay" "" "URL:Dash"
+    WriteRegStr HKCR "unpay" "" "URL:Unpay"
     WriteRegStr HKCR "unpay\DefaultIcon" "" $INSTDIR\unpay-qt.exe
     WriteRegStr HKCR "unpay\shell\open\command" "" '"$INSTDIR\unpay-qt.exe" "%1"'
 SectionEnd
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Dash.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Unpay.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2014-2015 The Unpay developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -69,10 +69,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("Dash");
-            case mDASH: return QString("Milli-Dash (1 / 1,000)");
-            case uDASH: return QString("Micro-Dash (1 / 1,000,000)");
-            case duffs: return QString("Ten Nano-Dash (1 / 100,000,000)");
+            case DASH: return QString("Unpay");
+            case mDASH: return QString("Milli-Unpay (1 / 1,000)");
+            case uDASH: return QString("Micro-Unpay (1 / 1,000,000)");
+            case duffs: return QString("Ten Nano-Unpay (1 / 100,000,000)");
             default: return QString("???");
         }
     }

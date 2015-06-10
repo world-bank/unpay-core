@@ -63,7 +63,7 @@ public:
 };
 
 /**
- * Dash RPC command dispatcher.
+ * Unpay RPC command dispatcher.
  */
 class CRPCTable
 {

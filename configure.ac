@@ -6,7 +6,7 @@ define(_CLIENT_VERSION_REVISION, 2)
 define(_CLIENT_VERSION_BUILD, 23)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2015)
-AC_INIT([Unpay Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@dashpay.io],[unpay])
+AC_INIT([Unpay Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@unpaypay.io],[unpay])
 AC_CONFIG_AUX_DIR([src/build-aux])
 AC_CONFIG_MACRO_DIR([src/m4])
 AC_CANONICAL_HOST
@@ -652,7 +652,7 @@ if test x$bitcoin_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_dash-qt])
+  AC_MSG_CHECKING([whether to build test_unpay-qt])
   if test x$use_tests$bitcoin_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="test"
@@ -661,7 +661,7 @@ if test x$bitcoin_enable_qt != xno; then
   fi
 fi
 
-AC_MSG_CHECKING([whether to build test_dash])
+AC_MSG_CHECKING([whether to build test_unpay])
 if test x$use_tests = xyes; then
   AC_MSG_RESULT([yes])
   BUILD_TEST="test"

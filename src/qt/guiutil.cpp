@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2014-2015 The Unpay developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -98,7 +98,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 
     widget->setFont(bitcoinAddressFont());
 #if QT_VERSION >= 0x040700
-    widget->setPlaceholderText(QObject::tr("Enter a Dash address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)"));
+    widget->setPlaceholderText(QObject::tr("Enter a Unpay address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -557,12 +557,12 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Dash.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Unpay.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Dash.lnk
+    // check for Unpay.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -680,7 +680,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a unpay.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Dash\n";
+        optionFile << "Name=Unpay\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

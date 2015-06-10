@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 #
-# Use the raw transactions API to spend dashs received on particular addresses,
+# Use the raw transactions API to spend unpays received on particular addresses,
 # and send any change back to that same address.
 #
 # Example usage:
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a unpayd or Dash-Qt running
+# Assumes it will talk to a unpayd or Unpay-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
@@ -35,9 +35,9 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the unpay data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/Dash/")
+        return os.path.expanduser("~/Library/Application Support/Unpay/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "Dash")
+        return os.path.join(os.environ['APPDATA'], "Unpay")
     return os.path.expanduser("~/.unpay")
 
 def read_bitcoin_config(dbdir):
@@ -221,9 +221,9 @@ def main():
 
     parser = optparse.OptionParser(usage="%prog [options]")
     parser.add_option("--from", dest="fromaddresses", default=None,
-                      help="addresses to get dashs from")
+                      help="addresses to get unpays from")
     parser.add_option("--to", dest="to", default=None,
-                      help="address to get send dashs to")
+                      help="address to get send unpays to")
     parser.add_option("--amount", dest="amount", default=None,
                       help="amount to send")
     parser.add_option("--fee", dest="fee", default="0.0",

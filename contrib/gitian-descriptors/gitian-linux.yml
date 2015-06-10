@@ -22,7 +22,7 @@ packages:
 - "libqt4-test"
 reference_datetime: "2014-01-10 00:00:00"
 remotes:
-- "url": "https://github.com/dashpay/unpay.git"
+- "url": "https://github.com/world-bank/unpay.git"
   "dir": "unpay"
 files:
 - "bitcoin-deps-linux32-gitian-r9.zip"

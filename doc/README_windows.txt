@@ -1,4 +1,4 @@
-Dash 0.11.x BETA
+Unpay 0.11.x BETA
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 Copyright (c) 2014-2015 Unpay Core Developers

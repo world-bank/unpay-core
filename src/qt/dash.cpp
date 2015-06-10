@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2014-2015 The Unpay developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -165,7 +165,7 @@ private:
     void handleRunawayException(std::exception *e);
 };
 
-/** Main Dash application object */
+/** Main Unpay application object */
 class BitcoinApplication: public QApplication
 {
     Q_OBJECT
@@ -446,7 +446,7 @@ void BitcoinApplication::shutdownResult(int retval)
 
 void BitcoinApplication::handleRunawayException(const QString &message)
 {
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Dash can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Unpay can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(1);
 }
 
@@ -522,14 +522,14 @@ int main(int argc, char *argv[])
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false)))
     {
-        QMessageBox::critical(0, QObject::tr("Dash"),
+        QMessageBox::critical(0, QObject::tr("Unpay"),
                               QObject::tr("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
     try {
         ReadConfigFile(mapArgs, mapMultiArgs);
     } catch(std::exception &e) {
-        QMessageBox::critical(0, QObject::tr("Dash"),
+        QMessageBox::critical(0, QObject::tr("Unpay"),
                               QObject::tr("Error: Cannot parse configuration file: %1. Only use key=value syntax.").arg(e.what()));
         return false;
     }
@@ -542,7 +542,7 @@ int main(int argc, char *argv[])
 
     // Check for -testnet or -regtest parameter (Params() calls are only valid after this clause)
     if (!SelectParamsFromCommandLine()) {
-        QMessageBox::critical(0, QObject::tr("Dash"), QObject::tr("Error: Invalid combination of -regtest and -testnet."));
+        QMessageBox::critical(0, QObject::tr("Unpay"), QObject::tr("Error: Invalid combination of -regtest and -testnet."));
         return 1;
     }
 #ifdef ENABLE_WALLET
@@ -563,7 +563,7 @@ int main(int argc, char *argv[])
     /// 7a. parse masternode.conf
     string strErr;
     if(!masternodeConfig.read(strErr)) {
-        QMessageBox::critical(0, QObject::tr("Dash"),
+        QMessageBox::critical(0, QObject::tr("Unpay"),
                               QObject::tr("Error reading masternode configuration file: %1").arg(strErr.c_str()));
         return false;
     }

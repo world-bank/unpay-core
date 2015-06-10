@@ -13,7 +13,7 @@ Unpay Core tree 0.11.x is a fork of Bitcoin Core tree 0.9.
 Older releases
 --------------
 
-Dash was previously known as Darkcoin.
+Unpay was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.

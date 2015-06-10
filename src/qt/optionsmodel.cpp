@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2014-2015 The Unpay developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -148,7 +148,7 @@ void OptionsModel::Init()
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
     if (settings.contains("nAnonymizeDarkcoinAmount"))
-        SoftSetArg("-anonymizedashamount", settings.value("nAnonymizeDarkcoinAmount").toString().toStdString());
+        SoftSetArg("-anonymizeunpayamount", settings.value("nAnonymizeDarkcoinAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }

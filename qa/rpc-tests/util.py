@@ -1,5 +1,5 @@
 # Copyright (c) 2014 The Bitcoin Core developers
-# Copyright (c) 2014-2015 The Dash developers
+# Copyright (c) 2014-2015 The Unpay developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #
@@ -67,7 +67,7 @@ def initialize_chain(test_dir):
 
     if not os.path.isdir(os.path.join("cache", "node0")):
         devnull = open("/dev/null", "w+")
-        # Create cache directories, run dashds:
+        # Create cache directories, run unpayds:
         for i in range(4):
             datadir = os.path.join("cache", "node"+str(i))
             os.makedirs(datadir)
@@ -114,7 +114,7 @@ def initialize_chain(test_dir):
         shutil.copytree(from_dir, to_dir)
 
 def start_nodes(num_nodes, dir):
-    # Start dashds, and wait for RPC interface to be up and running:
+    # Start unpayds, and wait for RPC interface to be up and running:
     devnull = open("/dev/null", "w+")
     for i in range(num_nodes):
         datadir = os.path.join(dir, "node"+str(i))

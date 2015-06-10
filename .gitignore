@@ -4,8 +4,8 @@
 src/unpay
 src/unpayd
 src/unpay-cli
-src/test/test_dash
-src/qt/test/test_dash-qt
+src/test/test_unpay
+src/qt/test/test_unpay-qt
 
 Makefile.in
 aclocal.m4
@@ -52,7 +52,7 @@ src/qt/test/moc*.cpp
 *.qm
 Makefile
 unpay-qt
-Dash-Qt.app
+Unpay-Qt.app
 
 # Unit-tests
 Makefile.test
@@ -76,7 +76,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_dash.coverage/
+test_unpay.coverage/
 total.coverage/
 coverage_percent.txt
 

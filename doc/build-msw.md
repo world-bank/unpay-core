@@ -72,7 +72,7 @@ MSYS shell:
 	mkdir miniupnpc
 	cp *.h miniupnpc/
 
-Dash
+Unpay
 -------
 MSYS shell:
 

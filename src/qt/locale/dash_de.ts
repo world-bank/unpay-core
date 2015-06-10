@@ -115,12 +115,12 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     <message>
         <location filename="../addressbookpage.cpp" line="45"/>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie Dash überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie Unpay überweisen möchten</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="46"/>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie Dash empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie Unpay empfangen wollen</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="51"/>
@@ -139,13 +139,13 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="65"/>
-        <source>These are your Dash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre Dash-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie Dash überweisen.</translation>
+        <source>These are your Unpay addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre Unpay-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie Unpay überweisen.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="69"/>
-        <source>These are your Dash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre Dash-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your Unpay addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre Unpay-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="75"/>
@@ -281,7 +281,7 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     <message>
         <location filename="../askpassphrasedialog.cpp" line="113"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre Dash verlieren&lt;/b&gt;!</translation>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre Unpay verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="113"/>
@@ -296,8 +296,8 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="124"/>
-        <source>Dash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dashs from being stolen by malware infecting your computer.</source>
-        <translation>Dash wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer Dash durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>Unpay will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your unpays from being stolen by malware infecting your computer.</source>
+        <translation>Unpay wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer Unpay durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="128"/>
@@ -392,8 +392,8 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="235"/>
-        <source>Send coins to a Dash address</source>
-        <translation>Dash an eine Dash-Adresse überweisen</translation>
+        <source>Send coins to a Unpay address</source>
+        <translation>Unpay an eine Unpay-Adresse überweisen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -433,8 +433,8 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="274"/>
-        <source>Show information about Dash</source>
-        <translation>Informationen über Dash anzeigen</translation>
+        <source>Show information about Unpay</source>
+        <translation>Informationen über Unpay anzeigen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="277"/>
@@ -454,7 +454,7 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="284"/>
-        <source>Modify configuration options for Dash</source>
+        <source>Modify configuration options for Unpay</source>
         <translation>Die Konfiguration des Clients bearbeiten</translation>
     </message>
     <message>
@@ -520,8 +520,8 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="303"/>
-        <source>Sign messages with your Dash addresses to prove you own them</source>
-        <translation>Nachrichten signieren, um den Besitz ihrer Dash-Adressen zu beweisen</translation>
+        <source>Sign messages with your Unpay addresses to prove you own them</source>
+        <translation>Nachrichten signieren, um den Besitz ihrer Unpay-Adressen zu beweisen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="304"/>
@@ -530,8 +530,8 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="305"/>
-        <source>Verify messages to ensure they were signed with specified Dash addresses</source>
-        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen Dash-Adressen signiert wurden</translation>
+        <source>Verify messages to ensure they were signed with specified Unpay addresses</source>
+        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen Unpay-Adressen signiert wurden</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="307"/>
@@ -610,7 +610,7 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="325"/>
-        <source>Show the Unpay Core help message to get a list with possible Dash command-line options</source>
+        <source>Show the Unpay Core help message to get a list with possible Unpay command-line options</source>
         <translation>Zeige den &quot;Unpay Core&quot;-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
     </message>
     <message>
@@ -641,13 +641,13 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     <message>
         <location filename="../bitcoingui.cpp" line="493"/>
         <location filename="../bitcoingui.cpp" line="498"/>
-        <source>Dash client</source>
-        <translation>Dash-Client</translation>
+        <source>Unpay client</source>
+        <translation>Unpay-Client</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="643"/>
-        <source>%n active connection(s) to Dash network</source>
-        <translation><numerusform>%n aktive Verbindung zum Dash-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Dash-Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to Unpay network</source>
+        <translation><numerusform>%n aktive Verbindung zum Unpay-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Unpay-Netzwerk</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="655"/>
@@ -727,8 +727,8 @@ Dieses Produkt enthält zudem folgende Dritt-Software:
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="755"/>
-        <source>Dash</source>
-        <translation>Dash</translation>
+        <source>Unpay</source>
+        <translation>Unpay</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="769"/>
@@ -784,8 +784,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../unpay.cpp" line="449"/>
-        <source>A fatal error occurred. Dash can no longer continue safely and will quit.</source>
-        <translation>Ein schwerer Fehler ist aufgetreten. Dash kann nicht mehr sicher ausgeführt werden und wird beendet.</translation>
+        <source>A fatal error occurred. Unpay can no longer continue safely and will quit.</source>
+        <translation>Ein schwerer Fehler ist aufgetreten. Unpay kann nicht mehr sicher ausgeführt werden und wird beendet.</translation>
     </message>
 </context>
 <context>
@@ -1165,7 +1165,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../forms/darksendconfig.ui" line="156"/>
         <source>0.1 DASH per 1000 DASH you anonymize.</source>
-        <translation>0,1 DASH pro 1000 zu anonymisierende Dash.</translation>
+        <translation>0,1 DASH pro 1000 zu anonymisierende Unpay.</translation>
     </message>
     <message>
         <location filename="../forms/darksendconfig.ui" line="143"/>
@@ -1181,18 +1181,18 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../darksendconfig.cpp" line="44"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</source>
-        <translation>Darksend wurde erfolgreich auf einfachen Datenschutz (%1 und 2 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Dash ändern.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Unpay&apos;s configuration screen.</source>
+        <translation>Darksend wurde erfolgreich auf einfachen Datenschutz (%1 und 2 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Unpay ändern.</translation>
     </message>
     <message>
         <location filename="../darksendconfig.cpp" line="59"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</source>
-        <translation>Darksend wurde erfolgreich auf hohen Datenschutz (%1 und 8 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Dash ändern.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Unpay&apos;s configuration screen.</source>
+        <translation>Darksend wurde erfolgreich auf hohen Datenschutz (%1 und 8 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Unpay ändern.</translation>
     </message>
     <message>
         <location filename="../darksendconfig.cpp" line="74"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash&apos;s configuration screen.</source>
-        <translation>Darksend wurde erfolgreich auf maximalen Datenschutz (%1 und 16 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Dash ändern.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Unpay&apos;s configuration screen.</source>
+        <translation>Darksend wurde erfolgreich auf maximalen Datenschutz (%1 und 16 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Unpay ändern.</translation>
     </message>
 </context>
 <context>
@@ -1244,8 +1244,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="111"/>
-        <source>The entered address &quot;%1&quot; is not a valid Dash address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige Dash-Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Unpay address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige Unpay-Adresse.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="116"/>
@@ -1368,7 +1368,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>Unpay Core will download and store a copy of the Dash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Unpay Core will download and store a copy of the Unpay block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Unpay Core wird jetzt die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Das Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
@@ -1383,8 +1383,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../intro.cpp" line="185"/>
-        <source>Dash</source>
-        <translation>Dash</translation>
+        <source>Unpay</source>
+        <translation>Unpay</translation>
     </message>
     <message>
         <location filename="../intro.cpp" line="186"/>
@@ -1449,13 +1449,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="33"/>
-        <source>Automatically start Dash after logging in to the system.</source>
-        <translation>Dash nach der Anmeldung am System automatisch starten.</translation>
+        <source>Automatically start Unpay after logging in to the system.</source>
+        <translation>Unpay nach der Anmeldung am System automatisch starten.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
-        <source>&amp;Start Dash on system login</source>
-        <translation>&amp;Starte Dash automatisch nach Systemanmeldung</translation>
+        <source>&amp;Start Unpay on system login</source>
+        <translation>&amp;Starte Unpay automatisch nach Systemanmeldung</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="45"/>
@@ -1494,8 +1494,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="180"/>
-        <source>Amount of Dash to keep anonymized</source>
-        <translation>Anzahl anonymisierter Dash</translation>
+        <source>Amount of Unpay to keep anonymized</source>
+        <translation>Anzahl anonymisierter Unpay</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="206"/>
@@ -1544,8 +1544,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="307"/>
-        <source>Automatically open the Dash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den Dash-Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
+        <source>Automatically open the Unpay client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den Unpay-Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="310"/>
@@ -1554,8 +1554,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="317"/>
-        <source>Connect to the Dash network through a SOCKS proxy.</source>
-        <translation>Über einen SOCKS5-Proxy mit dem Dash-Netzwerk verbinden.</translation>
+        <source>Connect to the Unpay network through a SOCKS proxy.</source>
+        <translation>Über einen SOCKS5-Proxy mit dem Unpay-Netzwerk verbinden.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="320"/>
@@ -1629,8 +1629,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="503"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dash.</source>
-        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von Dash aktiv.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Unpay.</source>
+        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von Unpay aktiv.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="524"/>
@@ -1647,12 +1647,12 @@ https://www.transifex.com/projects/p/unpay/</translation>
     <message>
         <location filename="../forms/optionsdialog.ui" line="563"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von Dash angezeigt werden soll.</translation>
+        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von Unpay angezeigt werden soll.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="572"/>
-        <source>Whether to show Dash addresses in the transaction list or not.</source>
-        <translation>Zeige Dash Adressen in der Transaktionsliste.</translation>
+        <source>Whether to show Unpay addresses in the transaction list or not.</source>
+        <translation>Zeige Unpay Adressen in der Transaktionsliste.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="575"/>
@@ -1748,8 +1748,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
         <location filename="../forms/overviewpage.ui" line="70"/>
         <location filename="../forms/overviewpage.ui" line="953"/>
         <location filename="../forms/overviewpage.ui" line="1021"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Wallet wird automatisch synchronisiert, nachdem eine Verbindung zum Dash-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Unpay network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Wallet wird automatisch synchronisiert, nachdem eine Verbindung zum Unpay-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="114"/>
@@ -2066,7 +2066,7 @@ https://www.transifex.com/projects/p/unpay/</translation>
     <message>
         <location filename="../paymentserver.cpp" line="294"/>
         <source>Cannot start unpay: click-to-pay handler</source>
-        <translation>Dash kann nicht gestartet werden: click-to-pay handler</translation>
+        <translation>Unpay kann nicht gestartet werden: click-to-pay handler</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="352"/>
@@ -2091,8 +2091,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="418"/>
-        <source>URI can not be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
-        <translation>URI konnte nicht erfolgreich verarbeitet werden. Höchstwahrscheinlich ist dies entweder keine gültige Dash-Adresse oder die URI-Parameter sind falsch gesetzt. </translation>
+        <source>URI can not be parsed! This can be caused by an invalid Unpay address or malformed URI parameters.</source>
+        <translation>URI konnte nicht erfolgreich verarbeitet werden. Höchstwahrscheinlich ist dies entweder keine gültige Unpay-Adresse oder die URI-Parameter sind falsch gesetzt. </translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="432"/>
@@ -2152,8 +2152,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
         <location filename="../unpay.cpp" line="532"/>
         <location filename="../unpay.cpp" line="539"/>
         <location filename="../unpay.cpp" line="552"/>
-        <source>Dash</source>
-        <translation>Dash</translation>
+        <source>Unpay</source>
+        <translation>Unpay</translation>
     </message>
     <message>
         <location filename="../unpay.cpp" line="526"/>
@@ -2182,8 +2182,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="101"/>
-        <source>Enter a Dash address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>Dash-Adresse eingeben (z.B. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+        <source>Enter a Unpay address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>Unpay-Adresse eingeben (z.B. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
 </context>
 <context>
@@ -2262,8 +2262,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="90"/>
-        <source>Open the Dash debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffnet die Dash-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <source>Open the Unpay debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öffnet die Unpay-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="93"/>
@@ -2354,8 +2354,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="333"/>
-        <source>Welcome to the Dash RPC console.</source>
-        <translation>Willkommen in der Dash RPC-Console.</translation>
+        <source>Welcome to the Unpay RPC console.</source>
+        <translation>Willkommen in der Unpay RPC-Console.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="334"/>
@@ -2418,8 +2418,8 @@ https://www.transifex.com/projects/p/unpay/</translation>
     <message>
         <location filename="../forms/receivecoinsdialog.ui" line="51"/>
         <location filename="../forms/receivecoinsdialog.ui" line="74"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird. Hinweis: Diese Nachricht wird nicht mit der Zahlung über das Dash-Netzwerk gesendet.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Unpay network.</source>
+        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird. Hinweis: Diese Nachricht wird nicht mit der Zahlung über das Unpay-Netzwerk gesendet.</translation>
     </message>
     <message>
         <location filename="../forms/receivecoinsdialog.ui" line="54"/>
@@ -2623,7 +2623,7 @@ https://www.transifex.com/projects/p/unpay/</translation>
         <location filename="../sendcoinsdialog.cpp" line="521"/>
         <location filename="../sendcoinsdialog.cpp" line="531"/>
         <source>Send Coins</source>
-        <translation>Dash überweisen</translation>
+        <translation>Unpay überweisen</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -2895,7 +2895,7 @@ https://www.transifex.com/projects/p/unpay/</translation>
         <location filename="../sendcoinsdialog.cpp" line="517"/>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Die Transaktion wurde abgelehnt! 
-Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie ihrer wallet.dat nutzten und die Dash dort ausgegeben haben. Diese Ausgaben sind in diesem Fall in der derzeit aktiven Wallet nicht vermerkt.</translation>
+Dies kann passieren, wenn einige Unpay aus ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie ihrer wallet.dat nutzten und die Unpay dort ausgegeben haben. Diese Ausgaben sind in diesem Fall in der derzeit aktiven Wallet nicht vermerkt.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="522"/>
@@ -2904,8 +2904,8 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="635"/>
-        <source>Warning: Invalid Dash address</source>
-        <translation>Warnung: ungültige Dash-Adresse</translation>
+        <source>Warning: Invalid Unpay address</source>
+        <translation>Warnung: ungültige Unpay-Adresse</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="644"/>
@@ -2986,8 +2986,8 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="157"/>
-        <source>A message that was attached to the unpay: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Eine an die &quot;unpay:&quot;-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Dash-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the unpay: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Unpay network.</source>
+        <translation>Eine an die &quot;unpay:&quot;-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Unpay-Netzwerk gesendet.</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="583"/>
@@ -3022,7 +3022,7 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     <message>
         <location filename="../utilitydialog.cpp" line="129"/>
         <source>Unpay Core is shutting down...</source>
-        <translation>Dash-Core wird herunter gefahren...</translation>
+        <translation>Unpay-Core wird herunter gefahren...</translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="130"/>
@@ -3091,8 +3091,8 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Dash address</source>
-        <translation>Die Nachricht signieren, um den Besitz dieser Dash-Adresse zu belegen</translation>
+        <source>Sign the message to prove you own this Unpay address</source>
+        <translation>Die Nachricht signieren, um den Besitz dieser Unpay-Adresse zu belegen</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -3127,8 +3127,8 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
-        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen Dash-Adresse signiert wurde</translation>
+        <source>Verify the message to ensure it was signed with the specified Unpay address</source>
+        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen Unpay-Adresse signiert wurde</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -3147,8 +3147,8 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
-        <source>Enter a Dash address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>Dash-Adresse eingeben (z.B. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+        <source>Enter a Unpay address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>Unpay-Adresse eingeben (z.B. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="114"/>
@@ -3449,7 +3449,7 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
     <message>
         <location filename="../transactiondesc.cpp" line="292"/>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte Dash müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und Sie werden keine Dash gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte Unpay müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und Sie werden keine Unpay gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="300"/>
@@ -3871,7 +3871,7 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
         <location filename="../walletmodel.cpp" line="271"/>
         <location filename="../walletmodel.cpp" line="285"/>
         <source>Send Coins</source>
-        <translation>Dash überweisen</translation>
+        <translation>Unpay überweisen</translation>
     </message>
     <message numerus="yes">
         <location filename="../walletmodel.cpp" line="271"/>
@@ -3925,271 +3925,271 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
 <context>
     <name>unpay-core</name>
     <message>
-        <location filename="../dashstrings.cpp" line="16"/>
+        <location filename="../unpaystrings.cpp" line="16"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dashrpc
+rpcuser=unpayrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Dash Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Unpay Alert&quot; admin@foo.com
 </source>
         <translation>%s, Sie müssen ein rpcpasswort in dieser Konfigurationsdatei angeben:
 %s
 Es wird empfohlen das folgende Zufallspasswort zu verwenden:
-rpcuser=dashrpc
+rpcuser=unpayrpc
 rpcpassword=%s
 (Sie müssen sich dieses Passwort nicht merken!)
 Der Benutzername und das Passwort dürfen NICHT identisch sein.
 Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.
 Es wird ebenfalls empfohlen alertnotify anzugeben, um im Problemfall benachrichtigt zu werden;
-zum Beispiel: alertnotify=echo %%s | mail -s \&quot;Dash Alert\&quot; admin@foo.com</translation>
+zum Beispiel: alertnotify=echo %%s | mail -s \&quot;Unpay Alert\&quot; admin@foo.com</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="29"/>
+        <location filename="../unpaystrings.cpp" line="29"/>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
         <translation>Zulässige Chiffren (Standard: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="32"/>
+        <location filename="../unpaystrings.cpp" line="32"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Beim Einrichten des RPC-Ports %u zum Abhören von IPv4 ist ein Fehler aufgetreten: %s</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="34"/>
+        <location filename="../unpaystrings.cpp" line="34"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Beim Einrichten des RPC-Ports %u zum Abhören von IPv6 ist ein Fehler aufgetreten, es wird auf IPv4 zurückgegriffen: %s</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="37"/>
+        <location filename="../unpaystrings.cpp" line="37"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 &quot;[Host]:Port&quot;-Schreibweise verwenden</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="40"/>
+        <location filename="../unpaystrings.cpp" line="40"/>
         <source>Cannot obtain a lock on data directory %s. Unpay Core is probably already running.</source>
         <translation>Das Programm kann das Daten-Verzeichnis %s nicht als &quot;in Verwendung&quot; markieren. Wahrscheinlich läuft das Programm bereits.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="43"/>
+        <location filename="../unpaystrings.cpp" line="43"/>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
         <translation>Anzahl der freien Transaktionen auf &lt;n&gt; * 1000 Byte pro Minute begrenzen (Standard: 15)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="46"/>
+        <location filename="../unpaystrings.cpp" line="46"/>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend benutzt exakt gestückelte Beträge zum Versenden, Sie müssen dafür möglicherweise noch mehr Dash anonymisieren.</translation>
+        <translation>Darksend benutzt exakt gestückelte Beträge zum Versenden, Sie müssen dafür möglicherweise noch mehr Unpay anonymisieren.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="49"/>
+        <location filename="../unpaystrings.cpp" line="49"/>
         <source>Disable all Masternode and Darksend related functionality (0-1, default: 0)</source>
         <translation>Deaktiviere alle Masternode- und Darksend-spezifischen Funktionen (0-1, Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="51"/>
+        <location filename="../unpaystrings.cpp" line="51"/>
         <source>Enable instantx, show confirmations for locked transactions (bool, default: true)</source>
         <translation>Aktiviere InstantX, zeige Bestätigungen für gesperrte Transaktionen an (bool, Standard: true)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="54"/>
+        <location filename="../unpaystrings.cpp" line="54"/>
         <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: 0)</source>
         <translation>Aktiviere Darksend automatisch (0-1, Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="57"/>
+        <location filename="../unpaystrings.cpp" line="57"/>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
         <translation>Regressionstest-Modus aktivieren, der eine spezielle Blockkette nutzt, in der Blöcke sofort gelöst werden können. Dies ist für Regressionstest-Tools und Anwendungsentwicklung gedacht.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="61"/>
+        <location filename="../unpaystrings.cpp" line="61"/>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation>Regressionstest-Modus aktivieren, der eine spezielle Blockkette nutzt, in der Blöcke sofort gelöst werden können.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="64"/>
+        <location filename="../unpaystrings.cpp" line="64"/>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Fehler: Abhören nach eingehenden Verbindungen fehlgeschlagen (Fehler %s)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="66"/>
+        <location filename="../unpaystrings.cpp" line="66"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Die Transaktion wurde abgelehnt! Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie ihrer wallet.dat genutzt, die Bitcoins dort ausgegeben haben und dies daher in der derzeit aktiven Wallet nicht vermerkt ist.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt! Dies kann passieren, wenn einige Unpay aus ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie ihrer wallet.dat genutzt, die Bitcoins dort ausgegeben haben und dies daher in der derzeit aktiven Wallet nicht vermerkt ist.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="70"/>
+        <location filename="../unpaystrings.cpp" line="70"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
         <translation>Fehler: Diese Transaktion benötigt aufgrund ihres Betrags, ihrer Komplexität oder der Nutzung erst kürzlich erhaltener Zahlungen eine Transaktionsgebühr in Höhe von mindestens %s!</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="73"/>
+        <location filename="../unpaystrings.cpp" line="73"/>
         <source>Error: Wallet unlocked for anonymization only, unable to create transaction.</source>
         <translation>Fehler: das Wallet ist nur zum Anonymisieren entsperrt, erzeugen von Transaktionen nicht möglichen.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="75"/>
+        <location filename="../unpaystrings.cpp" line="75"/>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Befehl ausführen wenn ein relevanter Alarm empfangen wird oder wir einen wirklich langen Fork entdecken (%s im Befehl wird durch die Nachricht ersetzt)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="78"/>
+        <location filename="../unpaystrings.cpp" line="78"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Befehl ausführen wenn sich eine Wallet-Transaktion verändert (%s im Befehl wird durch die TxID ersetzt)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="81"/>
+        <location filename="../unpaystrings.cpp" line="81"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Befehl ausführen wenn der beste Block wechselt (%s im Befehl wird durch den Hash des Blocks ersetzt)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="84"/>
+        <location filename="../unpaystrings.cpp" line="84"/>
         <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
         <translation>Niedrigere Gebühren als diese werden als gebührenfrei angesehen (bei der Transaktionserstellung) (Standard:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="87"/>
+        <location filename="../unpaystrings.cpp" line="87"/>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
         <translation>Datenbankaktivitäten vom Arbeitsspeicher-Pool alle &lt;n&gt; Megabyte auf den Datenträger schreiben (Standard: 100)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="90"/>
+        <location filename="../unpaystrings.cpp" line="90"/>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
         <translation>Unbestätigte für Darksend vorbereitete Ausgabebeträge gefunden, warte bis sie bestätigt sind bevor weitergemacht wird.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="93"/>
+        <location filename="../unpaystrings.cpp" line="93"/>
         <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
         <translation>Legt fest, wie gründlich die Blockverifikation von -checkblocks ist (0-4, Standard: 3)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="95"/>
+        <location filename="../unpaystrings.cpp" line="95"/>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
         <translation>In diesem Modus legt -genproclimit fest, wie viele Blöcke sofort erzeugt werden.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="98"/>
+        <location filename="../unpaystrings.cpp" line="98"/>
         <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>InstantX benötigt Zahlungseingänge mit mindestens 6 Bestätigungen, warten Sie also ein paar Minuten und versuchen Sie es dann erneut.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="101"/>
+        <location filename="../unpaystrings.cpp" line="101"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9998 or testnet: 19998)</source>
         <translation>&lt;port&gt;nach JSON-RPC-Verbindungen abhören (Standard: 9998 oder Testnetz: 19998)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="103"/>
+        <location filename="../unpaystrings.cpp" line="103"/>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
         <translation>Name, um eine URL für den KeyPass-Eintrag zu erzeugen, der die Wallet-Passphrase speichert.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="105"/>
+        <location filename="../unpaystrings.cpp" line="105"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Anzahl Sekunden, während denen sich nicht konform verhaltenden Gegenstellen die Wiederverbindung verweigert wird (Standard: 86400)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="108"/>
+        <location filename="../unpaystrings.cpp" line="108"/>
         <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
         <translation>Debugginginformationen ausgeben (Standard: 0, &lt;category&gt; anzugeben ist optional)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="110"/>
+        <location filename="../unpaystrings.cpp" line="110"/>
         <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Durch diese Einstellung können Sie dem Darksend-Netzwerk zusätzliche Liquidität zur Verfügung stellen in dem Sie von Zeit zu Zeit bereits anonymisierte Dash wieder dem Mixing-Prozess zuführen. (0-100) [0=aus, 1=sehr oft, 100=sehr selten] Voreinstellung: 0 </translation>
+        <translation>Durch diese Einstellung können Sie dem Darksend-Netzwerk zusätzliche Liquidität zur Verfügung stellen in dem Sie von Zeit zu Zeit bereits anonymisierte Unpay wieder dem Mixing-Prozess zuführen. (0-100) [0=aus, 1=sehr oft, 100=sehr selten] Voreinstellung: 0 </translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="114"/>
+        <location filename="../unpaystrings.cpp" line="114"/>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Abfrage der Peer-Adressen über DNS, falls es wenige Adressen gibt (Standard: 1, außer wenn -connect konfiguriert wurde)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="117"/>
+        <location filename="../unpaystrings.cpp" line="117"/>
         <source>Set external address:port to get to this masternode (example: address:port)</source>
         <translation>Setze externe Adresse und Port, um diesen Masternode zu erreichen (Beispiel: Adresse:Port)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="119"/>
+        <location filename="../unpaystrings.cpp" line="119"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Maximale Größe in Byte von Transaktionen hoher Priorität/mit niedrigen Gebühren festlegen (Standard: %d)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="121"/>
+        <location filename="../unpaystrings.cpp" line="121"/>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Maximale Anzahl an Skript-Verifizierungs-Threads festlegen (%u bis %d, 0 = automatisch, &lt;0 = so viele Kerne frei lassen, Standard: %d)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="124"/>
+        <location filename="../unpaystrings.cpp" line="124"/>
         <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
         <translation>Legt ein Prozessor-/CPU-Kernlimit fest, wenn CPU-Mining aktiviert ist (-1 = unbegrenzt, Standard: -1)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="127"/>
+        <location filename="../unpaystrings.cpp" line="127"/>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: 1)</source>
         <translation>Anzahl Bestätigungen  für eine erfolgreich gesperrte Transaktion (0-9999, voreingestellt: 1)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="130"/>
+        <location filename="../unpaystrings.cpp" line="130"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>Dies ist eine Vorab-Testversion - Verwendung auf eigene Gefahr - nicht für Mining- oder Handelsanwendungen nutzen!</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="133"/>
+        <location filename="../unpaystrings.cpp" line="133"/>
         <source>Unable to bind to %s on this computer. Unpay Core is probably already running.</source>
         <translation>Unpay Core den Prozess %s auf dem Computer nicht an sich binden. Wahrscheinlich läuft das Programm bereits.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="136"/>
+        <location filename="../unpaystrings.cpp" line="136"/>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
         <translation>Für diese Transaktion konnten nicht genug mit Darksend gestückelte Beträge gefunden werden.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="138"/>
+        <location filename="../unpaystrings.cpp" line="138"/>
         <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
         <translation>Für diese Transaktion konnten nicht genug nicht mit Darksend gestückelte Beträge gefunden werden, die ungleich 1000 DASH sind.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="141"/>
+        <location filename="../unpaystrings.cpp" line="141"/>
         <source>Unable to locate enough Darksend non-denominated funds for this transaction.</source>
         <translation>Für diese Transaktion konnten nicht genug nicht mit Darksend gestückelte Beträge gefunden werden.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="143"/>
+        <location filename="../unpaystrings.cpp" line="143"/>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
         <translation>Separaten SOCKS5-Proxy verwenden, um Gegenstellen über versteckte Tor-Dienste zu erreichen (Standard: -proxy)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="146"/>
+        <location filename="../unpaystrings.cpp" line="146"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Warnung: -paytxfee ist auf einen sehr hohen Wert festgelegt! Dies ist die Gebühr die beim Senden einer Transaktion fällig wird.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="149"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dash will not work properly.</source>
-        <translation>Warnung: Bitte überprüfen Sie die Datums- und Uhrzeiteinstellungen ihres Computers, da Dash ansonsten nicht ordnungsgemäß funktionieren wird!</translation>
+        <location filename="../unpaystrings.cpp" line="149"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Unpay will not work properly.</source>
+        <translation>Warnung: Bitte überprüfen Sie die Datums- und Uhrzeiteinstellungen ihres Computers, da Unpay ansonsten nicht ordnungsgemäß funktionieren wird!</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="152"/>
+        <location filename="../unpaystrings.cpp" line="152"/>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Warnung: Das Netzwerk scheint nicht vollständig übereinzustimmen! Einige Miner scheinen Probleme zu haben.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="155"/>
+        <location filename="../unpaystrings.cpp" line="155"/>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Warnung: Wir scheinen nicht vollständig mit unseren Gegenstellen übereinzustimmen! Sie oder die anderen Knoten müssen unter Umständen ihre Client-Software aktualisieren.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="158"/>
+        <location filename="../unpaystrings.cpp" line="158"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Warnung: Lesen von wallet.dat fehlgeschlagen! Alle Schlüssel wurden korrekt gelesen, Transaktionsdaten bzw. Adressbucheinträge fehlen aber möglicherweise oder sind inkorrekt.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="161"/>
+        <location filename="../unpaystrings.cpp" line="161"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>Warnung: wallet.dat beschädigt, Datenrettung erfolgreich! Original wallet.dat wurde als wallet.{Zeitstempel}.dat in %s gespeichert. Falls ihr Kontostand oder Transaktionen nicht korrekt sind, sollten Sie dem vorangegangenen Zustand durch die Datensicherung wiederherstellen.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="165"/>
+        <location filename="../unpaystrings.cpp" line="165"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
@@ -4198,1068 +4198,1068 @@ If the file does not exist, create it with owner-readable-only file permissions.
 Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="170"/>
+        <location filename="../unpaystrings.cpp" line="170"/>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
         <translation>Es muss ein Masternode-Geheimschlüssel (masternodeprivkey) in der Konfiguration angegeben werden. Für weitere Informationen siehe Dokumentation.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="173"/>
+        <location filename="../unpaystrings.cpp" line="173"/>
         <source>(default: 1)</source>
         <translation>(Standard: 1)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="174"/>
+        <location filename="../unpaystrings.cpp" line="174"/>
         <source>(default: wallet.dat)</source>
         <translation>(Standard: wallet.dat)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="175"/>
+        <location filename="../unpaystrings.cpp" line="175"/>
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; kann sein:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="176"/>
+        <location filename="../unpaystrings.cpp" line="176"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Kommandozeilen- und JSON-RPC-Befehle annehmen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="177"/>
+        <location filename="../unpaystrings.cpp" line="177"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Eingehende Verbindungen annehmen (Standard: 1, wenn nicht -proxy oder -connect)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="178"/>
+        <location filename="../unpaystrings.cpp" line="178"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Mit dem angegebenen Knoten verbinden und versuchen die Verbindung aufrecht zu erhalten</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="179"/>
+        <location filename="../unpaystrings.cpp" line="179"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Erlaube DNS-Abfragen für -addnode, -seednode und -connect</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="180"/>
+        <location filename="../unpaystrings.cpp" line="180"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>JSON-RPC-Verbindungen von der angegebenen IP-Adresse erlauben</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="181"/>
+        <location filename="../unpaystrings.cpp" line="181"/>
         <source>Already have that input.</source>
         <translation>Haben diesen Eintrag bereits.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="182"/>
+        <location filename="../unpaystrings.cpp" line="182"/>
         <source>Always query for peer addresses via DNS lookup (default: 0)</source>
         <translation>Peer-Adressen immer über DNS abfragen (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="183"/>
+        <location filename="../unpaystrings.cpp" line="183"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Versuchen, private Schlüssel aus einer beschädigten wallet.dat wiederherzustellen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="184"/>
+        <location filename="../unpaystrings.cpp" line="184"/>
         <source>Block creation options:</source>
         <translation>Blockerzeugungsoptionen:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="185"/>
+        <location filename="../unpaystrings.cpp" line="185"/>
         <source>Can&apos;t denominate: no compatible inputs left.</source>
         <translation>Kann nicht zerstückeln: keine kompatiblen Eingänge übrig.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="186"/>
+        <location filename="../unpaystrings.cpp" line="186"/>
         <source>Cannot downgrade wallet</source>
         <translation>Wallet kann nicht auf eine ältere Version herabgestuft werden</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="187"/>
+        <location filename="../unpaystrings.cpp" line="187"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
         <translation>Kann Adresse in -bind nicht auflösen: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="188"/>
+        <location filename="../unpaystrings.cpp" line="188"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
         <translation>Kann Adresse in -externalip nicht auflösen: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="189"/>
+        <location filename="../unpaystrings.cpp" line="189"/>
         <source>Cannot write default address</source>
         <translation>Standardadresse kann nicht geschrieben werden</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="190"/>
+        <location filename="../unpaystrings.cpp" line="190"/>
         <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
         <translation>Liste der Wallet-Transaktionen zurücksetzen (Diagnosetool; beinhaltet -rescan)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="191"/>
+        <location filename="../unpaystrings.cpp" line="191"/>
         <source>Collateral is not valid.</source>
         <translation>Sicherheitszahlung ist nicht gültig.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="192"/>
+        <location filename="../unpaystrings.cpp" line="192"/>
         <source>Collateral not valid.</source>
         <translation>Sicherheitszahlung nicht gültig.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="193"/>
+        <location filename="../unpaystrings.cpp" line="193"/>
         <source>Connect only to the specified node(s)</source>
         <translation>Mit nur dem oder den angegebenen Knoten verbinden</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="194"/>
+        <location filename="../unpaystrings.cpp" line="194"/>
         <source>Connect through SOCKS proxy</source>
         <translation>Über einen SOCKS-Proxy verbinden</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="195"/>
+        <location filename="../unpaystrings.cpp" line="195"/>
         <source>Connect to JSON-RPC on &lt;port&gt; (default: 9998 or testnet: 19998)</source>
         <translation>Mit JSON-RPC auf &lt;port&gt; verbinden (Standard: 9998 oder Testnetz: 19998)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="196"/>
+        <location filename="../unpaystrings.cpp" line="196"/>
         <source>Connect to KeePassHttp on port &lt;port&gt; (default: 19455)</source>
         <translation>Mit KeePassHttp auf &lt;port&gt; verbinden (Standard: 19455)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="197"/>
+        <location filename="../unpaystrings.cpp" line="197"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Mit dem angegebenen Knoten verbinden, um Adressen von Gegenstellen abzufragen, danach trennen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="198"/>
+        <location filename="../unpaystrings.cpp" line="198"/>
         <source>Connection options:</source>
         <translation>Verbindungsoptionen:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="199"/>
+        <location filename="../unpaystrings.cpp" line="199"/>
         <source>Corrupted block database detected</source>
         <translation>Beschädigte Blockdatenbank erkannt</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="200"/>
+        <location filename="../unpaystrings.cpp" line="200"/>
         <source>Unpay Core Daemon</source>
-        <translation>Dash-Core Daemon</translation>
+        <translation>Unpay-Core Daemon</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="201"/>
+        <location filename="../unpaystrings.cpp" line="201"/>
         <source>Unpay Core RPC client version</source>
-        <translation>Dash-Core RPC-client Version</translation>
+        <translation>Unpay-Core RPC-client Version</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="202"/>
+        <location filename="../unpaystrings.cpp" line="202"/>
         <source>Darksend is disabled.</source>
         <translation>Darksend ist deaktiviert.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="203"/>
+        <location filename="../unpaystrings.cpp" line="203"/>
         <source>Darksend options:</source>
         <translation>Darksend Optionen:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="204"/>
+        <location filename="../unpaystrings.cpp" line="204"/>
         <source>Debugging/Testing options:</source>
         <translation>Debugging-/Testoptionen:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="205"/>
+        <location filename="../unpaystrings.cpp" line="205"/>
         <source>Disable safemode, override a real safe mode event (default: 0)</source>
         <translation>Sicherheitsmodus deaktivieren, übergeht ein echtes Sicherheitsmodusereignis (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="206"/>
+        <location filename="../unpaystrings.cpp" line="206"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Eigene IP-Adresse erkennen (Standard: 1, wenn abgehört wird und nicht -externalip)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="207"/>
+        <location filename="../unpaystrings.cpp" line="207"/>
         <source>Do not load the wallet and disable wallet RPC calls</source>
         <translation>Die Wallet nicht laden und Wallet-RPC-Aufrufe deaktivieren</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="208"/>
+        <location filename="../unpaystrings.cpp" line="208"/>
         <source>Do you want to rebuild the block database now?</source>
         <translation>Möchten Sie die Blockdatenbank jetzt neu aufbauen?</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="209"/>
+        <location filename="../unpaystrings.cpp" line="209"/>
         <source>Done loading</source>
         <translation>Laden abgeschlossen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="210"/>
+        <location filename="../unpaystrings.cpp" line="210"/>
         <source>Downgrading and trying again.</source>
         <translation>Gehe auf ältere Version zurück und versuche es erneut.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="211"/>
+        <location filename="../unpaystrings.cpp" line="211"/>
         <source>Enable the client to act as a masternode (0-1, default: 0)</source>
         <translation>Masternode-Modus aktivieren. (0=aus, 1=an; Voreinstellung: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="212"/>
+        <location filename="../unpaystrings.cpp" line="212"/>
         <source>Entries are full.</source>
         <translation>Warteschlange ist voll.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="213"/>
+        <location filename="../unpaystrings.cpp" line="213"/>
         <source>Error connecting to masternode.</source>
         <translation>Fehler bei der Verbindung zur Masternode.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="214"/>
+        <location filename="../unpaystrings.cpp" line="214"/>
         <source>Error initializing block database</source>
         <translation>Fehler beim Initialisieren der Blockdatenbank</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="215"/>
+        <location filename="../unpaystrings.cpp" line="215"/>
         <source>Error initializing wallet database environment %s!</source>
         <translation>Fehler beim Initialisieren der Wallet-Datenbankumgebung %s!</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="216"/>
+        <location filename="../unpaystrings.cpp" line="216"/>
         <source>Error loading block database</source>
         <translation>Fehler beim Laden der Blockdatenbank</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="217"/>
+        <location filename="../unpaystrings.cpp" line="217"/>
         <source>Error loading wallet.dat</source>
         <translation>Fehler beim Laden von wallet.dat</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="218"/>
+        <location filename="../unpaystrings.cpp" line="218"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>Fehler beim Laden von wallet.dat: Wallet beschädigt</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="219"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dash</source>
-        <translation>Fehler beim Laden von wallet.dat: Wallet benötigt neuere Version von Dash</translation>
+        <location filename="../unpaystrings.cpp" line="219"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Unpay</source>
+        <translation>Fehler beim Laden von wallet.dat: Wallet benötigt neuere Version von Unpay</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="220"/>
+        <location filename="../unpaystrings.cpp" line="220"/>
         <source>Error opening block database</source>
         <translation>Fehler beim Öffnen der Blockdatenbank</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="221"/>
+        <location filename="../unpaystrings.cpp" line="221"/>
         <source>Error reading from database, shutting down.</source>
         <translation>Fehler beim Lesen der Datenbank, Anwendung wird heruntergefahren.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="222"/>
+        <location filename="../unpaystrings.cpp" line="222"/>
         <source>Error recovering public key.</source>
         <translation>Fehler bei der Wiederherstellung des öffentlichen Schlüssels.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="223"/>
+        <location filename="../unpaystrings.cpp" line="223"/>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="224"/>
+        <location filename="../unpaystrings.cpp" line="224"/>
         <source>Error: Disk space is low!</source>
         <translation>Fehler: Zu wenig freier Speicherplatz auf dem Datenträger!</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="225"/>
+        <location filename="../unpaystrings.cpp" line="225"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Fehler: Wallet gesperrt, Transaktion kann nicht erstellt werden!</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="226"/>
+        <location filename="../unpaystrings.cpp" line="226"/>
         <source>Error: You already have pending entries in the Darksend pool</source>
         <translation>Fehler: Es sind bereits anstehende Einträge im Darksend-Pool</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="227"/>
+        <location filename="../unpaystrings.cpp" line="227"/>
         <source>Error: system error: </source>
         <translation>Fehler: Systemfehler: </translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="228"/>
+        <location filename="../unpaystrings.cpp" line="228"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Fehler, es konnte kein Port abgehört werden. Wenn dies so gewünscht wird -listen=0 verwenden.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="229"/>
+        <location filename="../unpaystrings.cpp" line="229"/>
         <source>Failed to read block info</source>
         <translation>Lesen der Blockinformationen fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="230"/>
+        <location filename="../unpaystrings.cpp" line="230"/>
         <source>Failed to read block</source>
         <translation>Lesen des Blocks fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="231"/>
+        <location filename="../unpaystrings.cpp" line="231"/>
         <source>Failed to sync block index</source>
         <translation>Synchronisation des Blockindex fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="232"/>
+        <location filename="../unpaystrings.cpp" line="232"/>
         <source>Failed to write block index</source>
         <translation>Schreiben des Blockindex fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="233"/>
+        <location filename="../unpaystrings.cpp" line="233"/>
         <source>Failed to write block info</source>
         <translation>Schreiben der Blockinformationen fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="234"/>
+        <location filename="../unpaystrings.cpp" line="234"/>
         <source>Failed to write block</source>
         <translation>Schreiben des Blocks fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="235"/>
+        <location filename="../unpaystrings.cpp" line="235"/>
         <source>Failed to write file info</source>
         <translation>Schreiben der Dateiinformationen fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="236"/>
+        <location filename="../unpaystrings.cpp" line="236"/>
         <source>Failed to write to coin database</source>
         <translation>Schreiben in die Münzendatenbank fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="237"/>
+        <location filename="../unpaystrings.cpp" line="237"/>
         <source>Failed to write transaction index</source>
         <translation>Schreiben des Transaktionsindex fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="238"/>
+        <location filename="../unpaystrings.cpp" line="238"/>
         <source>Failed to write undo data</source>
         <translation>Schreiben der Rücksetzdaten fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="239"/>
+        <location filename="../unpaystrings.cpp" line="239"/>
         <source>Fee per kB to add to transactions you send</source>
         <translation>Gebühr pro kB, die gesendeten Transaktionen hinzugefügt wird</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="240"/>
+        <location filename="../unpaystrings.cpp" line="240"/>
         <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
         <translation>Niedrigere Gebühren als diese werden als gebührenfrei angesehen (bei der Vermittlung) (Standard:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="241"/>
+        <location filename="../unpaystrings.cpp" line="241"/>
         <source>Force safe mode (default: 0)</source>
         <translation>Sicherheitsmodus erzwingen (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="242"/>
+        <location filename="../unpaystrings.cpp" line="242"/>
         <source>Generate coins (default: 0)</source>
         <translation>Bitcoins erzeugen (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="243"/>
+        <location filename="../unpaystrings.cpp" line="243"/>
         <source>Get help for a command</source>
         <translation>Hilfe zu einem Befehl erhalten</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="244"/>
+        <location filename="../unpaystrings.cpp" line="244"/>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
         <translation>Wieviele Blöcke beim Starten geprüft werden sollen (Standard: 288, 0 = alle)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="245"/>
+        <location filename="../unpaystrings.cpp" line="245"/>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
         <translation>Wenn &lt;category&gt; nicht angegeben wird, jegliche Debugginginformationen ausgeben.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="246"/>
+        <location filename="../unpaystrings.cpp" line="246"/>
         <source>Ignore masternodes less than version (example: 70050; default : 0)</source>
         <translation>Masternodes mit einer Version welche älter ist als X ignorieren (z.B. Version 70050, Voreinstellung: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="247"/>
+        <location filename="../unpaystrings.cpp" line="247"/>
         <source>Importing...</source>
         <translation>Importiere...</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="248"/>
+        <location filename="../unpaystrings.cpp" line="248"/>
         <source>Imports blocks from external blk000??.dat file</source>
         <translation>Blöcke aus externer Datei blk000??.dat importieren</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="249"/>
+        <location filename="../unpaystrings.cpp" line="249"/>
         <source>Incompatible mode.</source>
         <translation>Inkompatibler Modus.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="250"/>
+        <location filename="../unpaystrings.cpp" line="250"/>
         <source>Incompatible version.</source>
         <translation>Inkompatible Version.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="251"/>
+        <location filename="../unpaystrings.cpp" line="251"/>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Fehlerhafter oder kein Genesis-Block gefunden. Falsches Datenverzeichnis für das Netzwerk?</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="252"/>
+        <location filename="../unpaystrings.cpp" line="252"/>
         <source>Information</source>
         <translation>Hinweis</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="253"/>
+        <location filename="../unpaystrings.cpp" line="253"/>
         <source>Initialization sanity check failed. Unpay Core is shutting down.</source>
         <translation>Fehler beim Initialisieren (Plausibilitätsprüfung fehlgeschlagen).
 Unpay Core wird heruntergefahren.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="254"/>
+        <location filename="../unpaystrings.cpp" line="254"/>
         <source>Input is not valid.</source>
         <translation>Eintrag ist nicht gültig.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="255"/>
+        <location filename="../unpaystrings.cpp" line="255"/>
         <source>InstantX options:</source>
         <translation>InstantX Optionen:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="256"/>
+        <location filename="../unpaystrings.cpp" line="256"/>
         <source>Insufficient funds</source>
         <translation>Unzureichender Kontostand</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="257"/>
+        <location filename="../unpaystrings.cpp" line="257"/>
         <source>Insufficient funds.</source>
         <translation>Unzureichender Kontostand.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="258"/>
+        <location filename="../unpaystrings.cpp" line="258"/>
         <source>Invalid -onion address: &apos;%s&apos;</source>
         <translation>Ungültige &quot;-onion&quot;-Adresse: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="259"/>
+        <location filename="../unpaystrings.cpp" line="259"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Ungültige Adresse in -proxy: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="260"/>
+        <location filename="../unpaystrings.cpp" line="260"/>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Ungültiger Betrag für -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="261"/>
+        <location filename="../unpaystrings.cpp" line="261"/>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Ungültiger Betrag für -mintxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="262"/>
+        <location filename="../unpaystrings.cpp" line="262"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="263"/>
+        <location filename="../unpaystrings.cpp" line="263"/>
         <source>Invalid amount</source>
         <translation>Ungültiger Betrag</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="264"/>
+        <location filename="../unpaystrings.cpp" line="264"/>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>Masternode-Geheimschlüssel (masternodeprivkey) ist ungültig. Siehe Dokumentation. </translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="265"/>
+        <location filename="../unpaystrings.cpp" line="265"/>
         <source>Invalid private key.</source>
         <translation>Fehlerhafter privater Schlüssel.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="266"/>
+        <location filename="../unpaystrings.cpp" line="266"/>
         <source>Invalid script detected.</source>
         <translation>Invalides Zahlskript entdeckt.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="267"/>
+        <location filename="../unpaystrings.cpp" line="267"/>
         <source>KeePassHttp id for the established association</source>
         <translation>&quot;KeePassHttp id&quot; für bestehende verknüpfte Verbindungen.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="268"/>
+        <location filename="../unpaystrings.cpp" line="268"/>
         <source>KeePassHttp key for AES encrypted communication with KeePass</source>
         <translation>&quot;KeePassHttp key&quot; für die  AES-verschlüsselte Kommunikation mit &quot;KeePass&quot;</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="269"/>
+        <location filename="../unpaystrings.cpp" line="269"/>
         <source>Keep N unpay anonymized (default: 0)</source>
         <translation>Betrag welcher anonymisiert vorgehalten wird. (Voreinstellung: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="270"/>
+        <location filename="../unpaystrings.cpp" line="270"/>
         <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
         <translation>Maximal &lt;n&gt; (noch) nicht einsortierte Blöcke zwischenspeichern (Voreinstellung: %u)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="271"/>
+        <location filename="../unpaystrings.cpp" line="271"/>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Maximal &lt;n&gt; (noch) nicht einsortierte Zahlungen zwischenspeichern (Voreinstellung: %u)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="272"/>
+        <location filename="../unpaystrings.cpp" line="272"/>
         <source>Last Darksend was too recent.</source>
         <translation>Letzte Darksend-Transaktion ist noch zu neu.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="273"/>
+        <location filename="../unpaystrings.cpp" line="273"/>
         <source>Last successful darksend action was too recent.</source>
         <translation>Letzte erfolgreiche Darksend-Transaktion ist noch zu neu.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="274"/>
+        <location filename="../unpaystrings.cpp" line="274"/>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
         <translation>Größe des Signaturcaches auf &lt;n&gt; Einträge begrenzen (Standard: 50000)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="275"/>
+        <location filename="../unpaystrings.cpp" line="275"/>
         <source>List commands</source>
         <translation>Befehle auflisten</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="276"/>
+        <location filename="../unpaystrings.cpp" line="276"/>
         <source>Listen for connections on &lt;port&gt; (default: 9999 or testnet: 19999)</source>
         <translation>&lt;port&gt; nach Verbindungen abhören (Standard: 9999 oder Testnetz: 19999)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="277"/>
+        <location filename="../unpaystrings.cpp" line="277"/>
         <source>Loading addresses...</source>
         <translation>Lade Adressen...</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="278"/>
+        <location filename="../unpaystrings.cpp" line="278"/>
         <source>Loading block index...</source>
         <translation>Lade Blockindex...</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="279"/>
+        <location filename="../unpaystrings.cpp" line="279"/>
         <source>Loading masternode list...</source>
         <translation>Lade Masternode-Liste...</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="280"/>
+        <location filename="../unpaystrings.cpp" line="280"/>
         <source>Loading wallet... (%3.2f %%)</source>
         <translation>Lade Wallet... (%3.2f %%)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="281"/>
+        <location filename="../unpaystrings.cpp" line="281"/>
         <source>Loading wallet...</source>
         <translation>Lade Wallet...</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="282"/>
+        <location filename="../unpaystrings.cpp" line="282"/>
         <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
         <translation>Transaktionspriorität und Gebühr pro kB beim Erzeugen von Blöcken protokollieren (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="283"/>
+        <location filename="../unpaystrings.cpp" line="283"/>
         <source>Maintain a full transaction index (default: 0)</source>
         <translation>Einen vollständigen Transaktionsindex führen (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="284"/>
+        <location filename="../unpaystrings.cpp" line="284"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
         <translation>Maximal &lt;n&gt; Verbindungen zu Gegenstellen aufrechterhalten (Standard: 125)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="285"/>
+        <location filename="../unpaystrings.cpp" line="285"/>
         <source>Masternode options:</source>
         <translation>Masternode Optionen:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="286"/>
+        <location filename="../unpaystrings.cpp" line="286"/>
         <source>Masternode queue is full.</source>
         <translation>Warteschlange der Masternode ist voll.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="287"/>
+        <location filename="../unpaystrings.cpp" line="287"/>
         <source>Masternode:</source>
         <translation>Masternode:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="288"/>
+        <location filename="../unpaystrings.cpp" line="288"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>Maximale Größe des Empfangspuffers pro Verbindung, &lt;n&gt; * 1000 Byte (Standard: 5000)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="289"/>
+        <location filename="../unpaystrings.cpp" line="289"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
         <translation>Maximale Größe des Sendepuffers pro Verbindung, &lt;n&gt; * 1000 Byte (Standard: 1000)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="290"/>
+        <location filename="../unpaystrings.cpp" line="290"/>
         <source>Missing input transaction information.</source>
         <translation>Fehlende Informationen zur Eingangs-Transaktion.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="291"/>
+        <location filename="../unpaystrings.cpp" line="291"/>
         <source>No compatible masternode found.</source>
         <translation>Keine kompatible Masternode gefunden.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="292"/>
+        <location filename="../unpaystrings.cpp" line="292"/>
         <source>No funds detected in need of denominating.</source>
         <translation>Kein Kapital gefunden, dass zerstückelt werden muss.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="293"/>
+        <location filename="../unpaystrings.cpp" line="293"/>
         <source>No masternodes detected.</source>
         <translation>Kein Masternodes gefunden.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="294"/>
+        <location filename="../unpaystrings.cpp" line="294"/>
         <source>No matching denominations found for mixing.</source>
         <translation>Keine passende Zerstückelungen zum Mixen gefunden.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="295"/>
+        <location filename="../unpaystrings.cpp" line="295"/>
         <source>Non-standard public key detected.</source>
         <translation>nicht Standard öffentlicher Schlüssel erkannt.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="296"/>
+        <location filename="../unpaystrings.cpp" line="296"/>
         <source>Not compatible with existing transactions.</source>
         <translation>Nicht kompatibel mit existierenden Transaktionen.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="297"/>
+        <location filename="../unpaystrings.cpp" line="297"/>
         <source>Not enough file descriptors available.</source>
         <translation>Nicht genügend Datei-Deskriptoren verfügbar.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="298"/>
+        <location filename="../unpaystrings.cpp" line="298"/>
         <source>Not in the masternode list.</source>
         <translation>Nicht in der Masternode-Liste.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="299"/>
+        <location filename="../unpaystrings.cpp" line="299"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
         <translation>Blockkette nur als gültig ansehen, wenn sie mit den integrierten Prüfpunkten übereinstimmt (Standard: 1)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="300"/>
+        <location filename="../unpaystrings.cpp" line="300"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>Verbinde nur zu Knoten des Netztyps &lt;net&gt; (IPv4, IPv6 oder Tor)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="301"/>
+        <location filename="../unpaystrings.cpp" line="301"/>
         <source>Options:</source>
         <translation>Optionen:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="302"/>
+        <location filename="../unpaystrings.cpp" line="302"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Passwort für JSON-RPC-Verbindungen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="303"/>
+        <location filename="../unpaystrings.cpp" line="303"/>
         <source>Prepend debug output with timestamp (default: 1)</source>
         <translation>Debugausgaben einen Zeitstempel voranstellen (Standard: 1)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="304"/>
+        <location filename="../unpaystrings.cpp" line="304"/>
         <source>Print block on startup, if found in block index</source>
         <translation>Block beim Starten ausgeben, wenn dieser im Blockindex gefunden wurde.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="305"/>
+        <location filename="../unpaystrings.cpp" line="305"/>
         <source>Print block tree on startup (default: 0)</source>
         <translation>Blockbaum beim Starten ausgeben (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="306"/>
+        <location filename="../unpaystrings.cpp" line="306"/>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>RPC SSL Optionen: (siehe Bitcoin Wiki für eine Installationsanleitung)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="307"/>
+        <location filename="../unpaystrings.cpp" line="307"/>
         <source>RPC client options:</source>
         <translation>RPC-Client-Optionen:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="308"/>
+        <location filename="../unpaystrings.cpp" line="308"/>
         <source>RPC server options:</source>
         <translation>RPC-Serveroptionen:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="309"/>
+        <location filename="../unpaystrings.cpp" line="309"/>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
         <translation>Zufällig eine von &lt;n&gt; Netzwerknachrichten verwerfen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="310"/>
+        <location filename="../unpaystrings.cpp" line="310"/>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
         <translation>Zufällig eine von &lt;n&gt; Netzwerknachrichten verwürfeln</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="311"/>
+        <location filename="../unpaystrings.cpp" line="311"/>
         <source>Rebuild block chain index from current blk000??.dat files</source>
         <translation>Blockkettenindex aus aktuellen Dateien blk000??.dat wiederaufbauen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="312"/>
+        <location filename="../unpaystrings.cpp" line="312"/>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Blockkette erneut nach fehlenden Wallet-Transaktionen durchsuchen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="313"/>
+        <location filename="../unpaystrings.cpp" line="313"/>
         <source>Rescanning...</source>
         <translation>Durchsuche erneut...</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="314"/>
+        <location filename="../unpaystrings.cpp" line="314"/>
         <source>Run a thread to flush wallet periodically (default: 1)</source>
         <translation>Einen Thread starten, der periodisch die Wallet sicher auf den Datenträger schreibt (Standard: 1)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="315"/>
+        <location filename="../unpaystrings.cpp" line="315"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Als Hintergrunddienst ausführen und Befehle annehmen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="316"/>
+        <location filename="../unpaystrings.cpp" line="316"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL-Optionen (siehe Bitcoin-Wiki für SSL-Einrichtungssanweisungen):</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="317"/>
+        <location filename="../unpaystrings.cpp" line="317"/>
         <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
         <translation>SOCKS-Version des Proxies wählen (4 oder 5, Standard: 5)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="318"/>
+        <location filename="../unpaystrings.cpp" line="318"/>
         <source>Send command to Unpay Core</source>
         <translation>Befehl an Unpay Core senden</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="319"/>
+        <location filename="../unpaystrings.cpp" line="319"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
         <translation>Sende Befehle an Knoten &lt;ip&gt; (Standard: 127.0.0.1)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="320"/>
+        <location filename="../unpaystrings.cpp" line="320"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Rückverfolgungs- und Debuginformationen an die Konsole senden, anstatt sie in debug.log zu schreiben</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="321"/>
+        <location filename="../unpaystrings.cpp" line="321"/>
         <source>Server certificate file (default: server.cert)</source>
         <translation>Serverzertifikat (Standard: server.cert)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="322"/>
+        <location filename="../unpaystrings.cpp" line="322"/>
         <source>Server private key (default: server.pem)</source>
         <translation>Privater Serverschlüssel (Standard: server.pem)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="323"/>
+        <location filename="../unpaystrings.cpp" line="323"/>
         <source>Session not complete!</source>
         <translation>Sitzung ist nicht vollständig!</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="324"/>
+        <location filename="../unpaystrings.cpp" line="324"/>
         <source>Session timed out (30 seconds), please resubmit.</source>
         <translation>Zeitüberschreitung der Sitzung (30 Sekunden), bitte erneut abschicken.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="325"/>
+        <location filename="../unpaystrings.cpp" line="325"/>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation>Größe des Datenbankcaches in Megabyte festlegen (%d bis %d, Standard: %d)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="326"/>
+        <location filename="../unpaystrings.cpp" line="326"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Größe des Schlüsselpools festlegen auf &lt;n&gt; (Standard: 100)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="327"/>
+        <location filename="../unpaystrings.cpp" line="327"/>
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Maximale Blockgröße in Byte festlegen (Standard: %d)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="328"/>
+        <location filename="../unpaystrings.cpp" line="328"/>
         <source>Set minimum block size in bytes (default: 0)</source>
         <translation>Minimale Blockgröße in Byte festlegen (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="329"/>
+        <location filename="../unpaystrings.cpp" line="329"/>
         <source>Set the masternode private key</source>
         <translation>Privaten Masternode-Schlüssel setzen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="330"/>
+        <location filename="../unpaystrings.cpp" line="330"/>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
         <translation>Maximale Anzahl an Threads zur Verarbeitung von RPC-Anfragen festlegen (Standard: 4)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="331"/>
+        <location filename="../unpaystrings.cpp" line="331"/>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
         <translation>DB_PRIVATE-Flag in der Wallet-Datenbankumgebung setzen (Standard: 1)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="332"/>
+        <location filename="../unpaystrings.cpp" line="332"/>
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Zeige alle Debuggingoptionen (Benutzung: --help -help-debug)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="333"/>
+        <location filename="../unpaystrings.cpp" line="333"/>
         <source>Show benchmark information (default: 0)</source>
         <translation>Zeige Benchmarkinformationen (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="334"/>
+        <location filename="../unpaystrings.cpp" line="334"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Protokolldatei debug.log beim Starten des Clients kürzen (Standard: 1, wenn kein -debug)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="335"/>
+        <location filename="../unpaystrings.cpp" line="335"/>
         <source>Signing failed.</source>
         <translation>Signierung fehlgeschalgen.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="336"/>
+        <location filename="../unpaystrings.cpp" line="336"/>
         <source>Signing timed out, please resubmit.</source>
         <translation>Zeitüberschreitung der Signierung, bitte erneut abschicken.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="337"/>
+        <location filename="../unpaystrings.cpp" line="337"/>
         <source>Signing transaction failed</source>
         <translation>Signierung der Transaktion fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="338"/>
+        <location filename="../unpaystrings.cpp" line="338"/>
         <source>Specify configuration file (default: unpay.conf)</source>
         <translation>Konfigurationsdatei festlegen (Standard: unpay.conf)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="339"/>
+        <location filename="../unpaystrings.cpp" line="339"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Verbindungzeitüberschreitung in Millisekunden festlegen (Standard: 5000)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="340"/>
+        <location filename="../unpaystrings.cpp" line="340"/>
         <source>Specify data directory</source>
         <translation>Datenverzeichnis festlegen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="341"/>
+        <location filename="../unpaystrings.cpp" line="341"/>
         <source>Specify masternode configuration file (default: masternode.conf)</source>
         <translation>Konfigurationsdatei der Masternode-Einstellungen angeben (Standart: masternode.conf)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="342"/>
+        <location filename="../unpaystrings.cpp" line="342"/>
         <source>Specify pid file (default: unpayd.pid)</source>
         <translation>pid-Datei angeben (Standard: unpay.pid)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="343"/>
+        <location filename="../unpaystrings.cpp" line="343"/>
         <source>Specify wallet file (within data directory)</source>
         <translation>Wallet-Datei angeben (innerhalb des Datenverzeichnisses)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="344"/>
+        <location filename="../unpaystrings.cpp" line="344"/>
         <source>Specify your own public address</source>
         <translation>Die eigene öffentliche Adresse angeben</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="345"/>
+        <location filename="../unpaystrings.cpp" line="345"/>
         <source>Spend unconfirmed change when sending transactions (default: 1)</source>
         <translation>Unbestätigtes Wechselgeld beim Senden von Transaktionen ausgeben (Standard: 1)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="346"/>
+        <location filename="../unpaystrings.cpp" line="346"/>
         <source>Start Unpay Core Daemon</source>
         <translation>Unpay Core starten</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="347"/>
+        <location filename="../unpaystrings.cpp" line="347"/>
         <source>System error: </source>
         <translation>Systemfehler: </translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="348"/>
+        <location filename="../unpaystrings.cpp" line="348"/>
         <source>This help message</source>
         <translation>Dieser Hilfetext</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="349"/>
+        <location filename="../unpaystrings.cpp" line="349"/>
         <source>This is intended for regression testing tools and app development.</source>
         <translation>Dies ist für Regressionstest-Tools und Anwendungsentwicklung gedacht.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="350"/>
+        <location filename="../unpaystrings.cpp" line="350"/>
         <source>This is not a masternode.</source>
         <translation>Das ist keine Masternode.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="351"/>
+        <location filename="../unpaystrings.cpp" line="351"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Schwellenwert, um Verbindungen zu sich nicht konform verhaltenden Gegenstellen zu beenden (Standard: 100)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="352"/>
+        <location filename="../unpaystrings.cpp" line="352"/>
         <source>To use the %s option</source>
         <translation>Zur Nutzung der %s-Option</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="353"/>
+        <location filename="../unpaystrings.cpp" line="353"/>
         <source>Transaction amount too small</source>
         <translation>Transaktionsbetrag zu niedrig</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="354"/>
+        <location filename="../unpaystrings.cpp" line="354"/>
         <source>Transaction amounts must be positive</source>
         <translation>Transaktionsbeträge müssen positiv sein</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="355"/>
+        <location filename="../unpaystrings.cpp" line="355"/>
         <source>Transaction created successfully.</source>
         <translation>Transaktion erfolgreich erstellt.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="356"/>
+        <location filename="../unpaystrings.cpp" line="356"/>
         <source>Transaction fees are too high.</source>
         <translation>Transaktionsgebühren sind zu hoch.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="357"/>
+        <location filename="../unpaystrings.cpp" line="357"/>
         <source>Transaction not valid.</source>
         <translation>Transaktion ungültig.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="358"/>
+        <location filename="../unpaystrings.cpp" line="358"/>
         <source>Transaction too large</source>
         <translation>Transaktion zu groß</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="359"/>
+        <location filename="../unpaystrings.cpp" line="359"/>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Kann auf diesem Computer nicht an %s binden (von bind zurückgegebener Fehler: %s)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="360"/>
+        <location filename="../unpaystrings.cpp" line="360"/>
         <source>Unable to sign masternode payment winner, wrong key?</source>
         <translation>Die Zahlung an den Gewinner der Masternode-Runde konnte nicht signiert werden. Wurde der Key falsch gesetzt?</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="361"/>
+        <location filename="../unpaystrings.cpp" line="361"/>
         <source>Unable to sign spork message, wrong key?</source>
         <translation>Die Spork-Nachricht konnte nicht signiert werden. Wurde der Key falsch gesetzt?</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="362"/>
+        <location filename="../unpaystrings.cpp" line="362"/>
         <source>Unknown -socks proxy version requested: %i</source>
         <translation>Unbekannte Proxyversion in -socks angefordert: %i</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="363"/>
+        <location filename="../unpaystrings.cpp" line="363"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
         <translation>Unbekannter Netztyp in -onlynet angegeben: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="364"/>
+        <location filename="../unpaystrings.cpp" line="364"/>
         <source>Upgrade wallet to latest format</source>
         <translation>Wallet auf das neueste Format aktualisieren</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="365"/>
+        <location filename="../unpaystrings.cpp" line="365"/>
         <source>Usage (deprecated, use unpay-cli):</source>
-        <translation>Benutzung (veraltet, bitte Dash-cli verwenden):</translation>
+        <translation>Benutzung (veraltet, bitte Unpay-cli verwenden):</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="366"/>
+        <location filename="../unpaystrings.cpp" line="366"/>
         <source>Usage:</source>
         <translation>Benutzung:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="367"/>
+        <location filename="../unpaystrings.cpp" line="367"/>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: 0)</source>
         <translation>&quot;KeePass 2&quot;-Integration mit KeePassHttp-plugin (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="368"/>
+        <location filename="../unpaystrings.cpp" line="368"/>
         <source>Use N separate masternodes to anonymize funds  (2-8, default: 2)</source>
-        <translation>N unterschiedliche Masternodes benutzen, um Dash zu anonymisieren (2-8, Standard: 2)</translation>
+        <translation>N unterschiedliche Masternodes benutzen, um Unpay zu anonymisieren (2-8, Standard: 2)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="369"/>
+        <location filename="../unpaystrings.cpp" line="369"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>OpenSSL (https) für JSON-RPC-Verbindungen verwenden</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="370"/>
+        <location filename="../unpaystrings.cpp" line="370"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: 0)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="371"/>
+        <location filename="../unpaystrings.cpp" line="371"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: 1, wenn abgehört wird)</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="372"/>
+        <location filename="../unpaystrings.cpp" line="372"/>
         <source>Use the test network</source>
         <translation>Das Testnetz verwenden</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="373"/>
+        <location filename="../unpaystrings.cpp" line="373"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Benutzername für JSON-RPC-Verbindungen</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="374"/>
+        <location filename="../unpaystrings.cpp" line="374"/>
         <source>Value more than Darksend pool maximum allows.</source>
         <translation>Wert größer als der vom Darksend Pool maximal erlaubte.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="375"/>
+        <location filename="../unpaystrings.cpp" line="375"/>
         <source>Verifying blocks...</source>
         <translation>Verifiziere Blöcke...</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="376"/>
+        <location filename="../unpaystrings.cpp" line="376"/>
         <source>Verifying wallet...</source>
         <translation>Verifiziere Wallet...</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="377"/>
+        <location filename="../unpaystrings.cpp" line="377"/>
         <source>Wait for RPC server to start</source>
         <translation>Warten, bis der RPC-Server gestartet ist</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="378"/>
+        <location filename="../unpaystrings.cpp" line="378"/>
         <source>Wallet %s resides outside data directory %s</source>
         <translation>Wallet %s liegt außerhalb des Datenverzeichnisses %s</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="379"/>
+        <location filename="../unpaystrings.cpp" line="379"/>
         <source>Wallet is locked.</source>
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="380"/>
-        <source>Wallet needed to be rewritten: restart Dash to complete</source>
+        <location filename="../unpaystrings.cpp" line="380"/>
+        <source>Wallet needed to be rewritten: restart Unpay to complete</source>
         <translation>Die Wallet musste neu geschrieben werden. Bitte das Programm neu starten um den Vorgang abzuschließen.</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="381"/>
+        <location filename="../unpaystrings.cpp" line="381"/>
         <source>Wallet options:</source>
         <translation>Wallet-Optionen:</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="382"/>
+        <location filename="../unpaystrings.cpp" line="382"/>
         <source>Warning</source>
         <translation>Warnung</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="383"/>
+        <location filename="../unpaystrings.cpp" line="383"/>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
         <translation>Warnung: Veraltetes Argument -debugnet gefunden, bitte -debug=net verwenden</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="384"/>
+        <location filename="../unpaystrings.cpp" line="384"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Warnung: Diese Version is veraltet, Aktualisierung erforderlich!</translation>
     </message>
@@ -5268,27 +5268,27 @@ Unpay Core wird heruntergefahren.</translation>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="385"/>
+        <location filename="../unpaystrings.cpp" line="385"/>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Sie müssen die Datenbank mit Hilfe von -reindex neu aufbauen, um -txindex zu verändern</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="386"/>
+        <location filename="../unpaystrings.cpp" line="386"/>
         <source>Zapping all transactions from wallet...</source>
         <translation>Lösche alle Transaktionen aus Wallet...</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="387"/>
+        <location filename="../unpaystrings.cpp" line="387"/>
         <source>on startup</source>
         <translation>beim Starten</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="388"/>
+        <location filename="../unpaystrings.cpp" line="388"/>
         <source>version</source>
         <translation>Version</translation>
     </message>
     <message>
-        <location filename="../dashstrings.cpp" line="389"/>
+        <location filename="../unpaystrings.cpp" line="389"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat beschädigt, Datenrettung fehlgeschlagen</translation>
     </message>

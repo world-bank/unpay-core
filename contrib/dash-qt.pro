@@ -1,4 +1,4 @@
-# lupdate-qt4 ./unpay-qt.pro -ts ../src/qt/locale/dash_en.ts
+# lupdate-qt4 ./unpay-qt.pro -ts ../src/qt/locale/unpay_en.ts
 
 HEADERS += \
     ../src/activemasternode.h \
@@ -213,7 +213,7 @@ SOURCES += \
     ../src/test/serialize_tests.cpp \
     ../src/test/sighash_tests.cpp \
     ../src/test/sigopcount_tests.cpp \
-    ../src/test/test_dash.cpp \
+    ../src/test/test_unpay.cpp \
     ../src/test/transaction_tests.cpp \
     ../src/test/uint256_tests.cpp \
     ../src/test/util_tests.cpp \
@@ -224,7 +224,7 @@ SOURCES += \
     ../src/qt/bitcoinaddressvalidator.cpp \
     ../src/qt/bitcoinamountfield.cpp \
     ../src/qt/bitcoingui.cpp \
-    ../src/qt/dashstrings.cpp \
+    ../src/qt/unpaystrings.cpp \
     ../src/qt/bitcoinunits.cpp \
     ../src/qt/clientmodel.cpp \
     ../src/qt/coincontroldialog.cpp \
@@ -288,7 +288,7 @@ SOURCES += \
     ../src/qt/paymentrequest.pb.cc \
     ../src/qt/paymentrequestplus.cpp \
     ../src/qt/paymentserver.cpp \
-    ../src/qt/qrc_dash.cpp \
+    ../src/qt/qrc_unpay.cpp \
     ../src/qt/qvalidatedlineedit.cpp \
     ../src/qt/qvaluecombobox.cpp \
     ../src/qt/receivecoinsdialog.cpp \

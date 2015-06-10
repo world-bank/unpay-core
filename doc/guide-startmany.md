@@ -137,7 +137,7 @@ I usually confirm that remote is on the correct block by issuing:
 
 ```unpayd getinfo```
 
-And compare with the official explorer at http://explorer.dashpay.io/chain/Dash
+And compare with the official explorer at http://explorer.unpaypay.io/chain/Unpay
 
 ### Local
 

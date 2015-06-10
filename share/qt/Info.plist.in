@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Dash-Qt</string>
+  <string>Unpay-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.dashfoundation.Dash-Qt</string>
+  <string>org.unpayfoundation.Unpay-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.unpay.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Dash payment request</string>
+      <string>Unpay payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -65,7 +65,7 @@
         <string>application/x-unpay-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>dashpaymentrequest</string>
+          <string>unpaypaymentrequest</string>
         </array>
       </dict>
     </dict>

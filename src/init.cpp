@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2014-2015 The Unpay developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -351,7 +351,7 @@ std::string HelpMessage(HelpMessageMode hmm)
     strUsage += "\n" + _("Darksend options:") + "\n";
     strUsage += "  -enabledarksend=<n>          " + _("Enable use of automated darksend for funds stored in this wallet (0-1, default: 0)") + "\n";
     strUsage += "  -darksendrounds=<n>          " + _("Use N separate masternodes to anonymize funds  (2-8, default: 2)") + "\n";
-    strUsage += "  -anonymizedashamount=<n> " + _("Keep N unpay anonymized (default: 0)") + "\n";
+    strUsage += "  -anonymizeunpayamount=<n> " + _("Keep N unpay anonymized (default: 0)") + "\n";
     strUsage += "  -liquidityprovider=<n>       " + _("Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)") + "\n";
 
     strUsage += "\n" + _("InstantX options:") + "\n";
@@ -446,7 +446,7 @@ void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 }
 
 /** Sanity checks
- *  Ensure that Dash is running in a usable environment with all
+ *  Ensure that Unpay is running in a usable environment with all
  *  necessary library support.
  */
 bool InitSanityCheck(void)
@@ -673,7 +673,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (strWalletFile != boost::filesystem::basename(strWalletFile) + boost::filesystem::extension(strWalletFile))
         return InitError(strprintf(_("Wallet %s resides outside data directory %s"), strWalletFile, strDataDir));
 #endif
-    // Make sure only a single Dash process is using the data directory.
+    // Make sure only a single Unpay process is using the data directory.
     boost::filesystem::path pathLockFile = GetDataDir() / ".lock";
     FILE* file = fopen(pathLockFile.string().c_str(), "a"); // empty lock file; created if it doesn't exist.
     if (file) fclose(file);
@@ -684,7 +684,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (GetBoolArg("-shrinkdebugfile", !fDebug))
         ShrinkDebugFile();
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Dash version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
+    LogPrintf("Unpay version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
     LogPrintf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
 #ifdef ENABLE_WALLET
     LogPrintf("Using BerkeleyDB version %s\n", DbEnv::version(0, 0, 0));
@@ -1131,10 +1131,10 @@ bool AppInit2(boost::thread_group& threadGroup)
                 InitWarning(msg);
             }
             else if (nLoadWalletRet == DB_TOO_NEW)
-                strErrors << _("Error loading wallet.dat: Wallet requires newer version of Dash") << "\n";
+                strErrors << _("Error loading wallet.dat: Wallet requires newer version of Unpay") << "\n";
             else if (nLoadWalletRet == DB_NEED_REWRITE)
             {
-                strErrors << _("Wallet needed to be rewritten: restart Dash to complete") << "\n";
+                strErrors << _("Wallet needed to be rewritten: restart Unpay to complete") << "\n";
                 LogPrintf("%s", strErrors.str());
                 return InitError(strErrors.str());
             }
@@ -1297,7 +1297,7 @@ bool AppInit2(boost::thread_group& threadGroup)
         nDarksendRounds = 99999;
     }
 
-    nAnonymizeDarkcoinAmount = GetArg("-anonymizedashamount", 0);
+    nAnonymizeDarkcoinAmount = GetArg("-anonymizeunpayamount", 0);
     if(nAnonymizeDarkcoinAmount > 999999) nAnonymizeDarkcoinAmount = 999999;
     if(nAnonymizeDarkcoinAmount < 2) nAnonymizeDarkcoinAmount = 2;
 
@@ -1319,7 +1319,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     LogPrintf("fLiteMode %d\n", fLiteMode);
     LogPrintf("nInstantXDepth %d\n", nInstantXDepth);
     LogPrintf("Darksend rounds %d\n", nDarksendRounds);
-    LogPrintf("Anonymize Dash Amount %d\n", nAnonymizeDarkcoinAmount);
+    LogPrintf("Anonymize Unpay Amount %d\n", nAnonymizeDarkcoinAmount);
 
     /* Denominations
 

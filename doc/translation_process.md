@@ -18,7 +18,7 @@ This file must be updated whenever a new translation is added. Please note that
 files must end with `.qm`, not `.ts`.
 
     <qresource prefix="/translations">
-        <file alias="en">locale/dash_en.qm</file>
+        <file alias="en">locale/unpay_en.qm</file>
         ...
     </qresource>
 
@@ -26,25 +26,25 @@ files must end with `.qm`, not `.ts`.
 
 This directory contains all translations. Filenames must adhere to this format:
 
-    dash_xx_YY.ts or dash_xx.ts
+    unpay_xx_YY.ts or unpay_xx.ts
 
-#### dash_en.ts (Source file)
+#### unpay_en.ts (Source file)
 
-`src/qt/locale/dash_en.ts` is treated in a special way. It is used as the
+`src/qt/locale/unpay_en.ts` is treated in a special way. It is used as the
 source for all other translations. Whenever a string in the code is changed
 this file must be updated to reflect those changes. A custom script is used
 to extract strings from the non-Qt parts. This script makes use of `gettext`,
 so make sure that utility is installed (ie, `apt-get install gettext` on
 Ubuntu/Debian). Once this has been updated, lupdate-qt4 (included in the Qt SDK)
-is used to update dash_en.ts. Simply run:
+is used to update unpay_en.ts. Simply run:
 
-    lupdate-qt4 ./contrib/unpay-qt.pro -ts ./src/qt/locale/dash_en.ts
+    lupdate-qt4 ./contrib/unpay-qt.pro -ts ./src/qt/locale/unpay_en.ts
 
 ##### Handling of plurals in the source file
 
 When new plurals are added to the source file, it's important to do the following steps:
 
-1. Open dash_en.ts in Qt Linguist (also included in the Qt SDK)
+1. Open unpay_en.ts in Qt Linguist (also included in the Qt SDK)
 2. Search for `%n`, which will take you to the parts in the translation that use plurals
 3. Look for empty `English Translation (Singular)` and `English Translation (Plural)` fields
 4. Add the appropriate strings for the singular and plural form of the base string
@@ -60,7 +60,7 @@ in Transifex and can be translated.
 
 To create the pull-request you have to do:
 
-    git add src/qt/dashstrings.cpp src/qt/locale/dash_en.ts
+    git add src/qt/unpaystrings.cpp src/qt/locale/unpay_en.ts
     git commit
 
 Syncing with Transifex
@@ -81,7 +81,7 @@ postprocessing steps before committing the translations.
 
 1. `python contrib/devtools/update-translations.py`
 2. update `src/qt/unpay.qrc` manually or via
-   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(dash_\(.*\)\).ts/        <file alias="\2">locale\/\1.qm<\/file>/'`
+   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(unpay_\(.*\)\).ts/        <file alias="\2">locale\/\1.qm<\/file>/'`
 3. update `src/qt/Makefile.am` manually or via
-   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(dash_\(.*\)\).ts/  locale\/\1.ts \\/'`
+   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(unpay_\(.*\)\).ts/  locale\/\1.ts \\/'`
 4. `git add` new translations from `src/qt/locale/`
