@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile @abs_top_srcdir@/dash-${VERSION}-win@WINDOWS_BITS@-setup.exe
+OutFile @abs_top_srcdir@/unpay-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
 InstallDir $PROGRAMFILES64\Dash
 !else
@@ -84,8 +84,8 @@ Section -Main SEC0000
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
-    # Remove old wxwidgets-based-dash executable and locales:
-    Delete /REBOOTOK $INSTDIR\dash.exe
+    # Remove old wxwidgets-based-unpay executable and locales:
+    Delete /REBOOTOK $INSTDIR\unpay.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "dash" "URL Protocol" ""
-    WriteRegStr HKCR "dash" "" "URL:Dash"
-    WriteRegStr HKCR "dash\DefaultIcon" "" $INSTDIR\unpay-qt.exe
-    WriteRegStr HKCR "dash\shell\open\command" "" '"$INSTDIR\unpay-qt.exe" "%1"'
+    WriteRegStr HKCR "unpay" "URL Protocol" ""
+    WriteRegStr HKCR "unpay" "" "URL:Dash"
+    WriteRegStr HKCR "unpay\DefaultIcon" "" $INSTDIR\unpay-qt.exe
+    WriteRegStr HKCR "unpay\shell\open\command" "" '"$INSTDIR\unpay-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "dash"
+    DeleteRegKey HKCR "unpay"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

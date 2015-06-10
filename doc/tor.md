@@ -10,7 +10,7 @@ port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.htm
 for how to properly configure Tor.
 
 
-1. Run dash behind a Tor proxy
+1. Run unpay behind a Tor proxy
 ----------------------------------
 
 The first step is running Dash behind a Tor proxy. This will already make all
@@ -49,24 +49,24 @@ In a typical situation, this suffices to run behind a Tor proxy:
 	./unpayd -proxy=127.0.0.1:9050
 
 
-2. Run a dash hidden server
+2. Run a unpay hidden server
 -------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
 reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equivalent
 config file):
 
-	HiddenServiceDir /var/lib/tor/dash-service/
+	HiddenServiceDir /var/lib/tor/unpay-service/
 	HiddenServicePort 9999 127.0.0.1:9999
 	HiddenServicePort 19999 127.0.0.1:19999
 
 The directory can be different of course, but (both) port numbers should be equal to
 your unpayd's P2P listen port (9999 by default).
 
-	-externalip=X   You can tell dash about its publicly reachable address using
+	-externalip=X   You can tell unpay about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your onion address in
-	                /var/lib/tor/dash-service/hostname. Onion addresses are given
+	                /var/lib/tor/unpay-service/hostname. Onion addresses are given
 	                preference for your node to advertize itself with, for connections
 	                coming from unroutable addresses (such as 127.0.0.1, where the
 	                Tor proxy typically runs).
@@ -99,7 +99,7 @@ for normal IPv4/IPv6 communication, use:
 	./unpayd -onion=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -discover
 
 
-3. List of known dash Tor relays
+3. List of known unpay Tor relays
 ------------------------------------
 
 * [dashie7ghp67.onion](http://dashie7ghp67.onion/)

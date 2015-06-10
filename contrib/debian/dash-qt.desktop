@@ -8,5 +8,5 @@ Exec=unpay-qt %u
 Terminal=false
 Type=Application
 Icon=dash128
-MimeType=x-scheme-handler/dash;
+MimeType=x-scheme-handler/unpay;
 Categories=Office;Finance;

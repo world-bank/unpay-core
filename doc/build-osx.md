@@ -73,7 +73,7 @@ These rest of these commands are run inside brew interactive mode:
 /private/tmp/berkeley-db4-UGpd0O $ exit
 ```
 
-After exiting, you'll get a warning that the install is keg-only, which means it wasn't symlinked to `/usr/local`.  You don't need it to link it to build dash, but if you want to, here's how:
+After exiting, you'll get a warning that the install is keg-only, which means it wasn't symlinked to `/usr/local`.  You don't need it to link it to build unpay, but if you want to, here's how:
 
     $ brew --force link berkeley-db4
 
@@ -82,8 +82,8 @@ After exiting, you'll get a warning that the install is keg-only, which means it
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/dashpay/dash.git
-        cd dash
+        git clone https://github.com/dashpay/unpay.git
+        cd unpay
 
 2.  Build unpayd:
 
@@ -122,8 +122,8 @@ directory. We have to first create the RPC configuration file, though.
 Run `./unpayd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=dashrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Dash/dash.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Dash/dash.conf"
+    echo -e "rpcuser=dashrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Dash/unpay.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Dash/unpay.conf"
 
 When next you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
@@ -133,6 +133,6 @@ you can monitor its process by looking at the debug.log file, like this:
 
 Other commands:
 
-    ./unpayd -daemon # to start the dash daemon.
+    ./unpayd -daemon # to start the unpay daemon.
     ./unpay-cli --help  # for a list of command-line options.
     ./unpay-cli help    # When the daemon is running, to get a list of RPC commands

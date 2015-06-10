@@ -398,8 +398,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="242"/>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Demande de paiements (Générer des QR code et des URIs dash)</translation>
+        <source>Request payments (generates QR codes and unpay: URIs)</source>
+        <translation>Demande de paiements (Générer des QR code et des URIs unpay)</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
@@ -596,8 +596,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL afin d&apos
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="322"/>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Ouvrir une URI ou demande de paiement dash</translation>
+        <source>Open a unpay: URI or payment request</source>
+        <translation>Ouvrir une URI ou demande de paiement unpay</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="324"/>
@@ -780,7 +780,7 @@ Adresse : %4
         <translation>Le portefeuille est &lt;b&gt;chiffré&lt;/b&gt; et actuellement &lt;b&gt;verrouillé&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="449"/>
+        <location filename="../unpay.cpp" line="449"/>
         <source>A fatal error occurred. Dash can no longer continue safely and will quit.</source>
         <translation>Une erreur fatale est survenue. Dash ne peut plus continuer de façon sûre et va s&apos;arrêter.</translation>
     </message>
@@ -1632,9 +1632,9 @@ Adresse : %4
     <message>
         <location filename="../forms/optionsdialog.ui" line="524"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/dash/</source>
+https://www.transifex.com/projects/p/unpay/</source>
         <translation>Langage manquant ou traduction incomplète ? Participez aux traductions ici :
-https://www.transifex.com/projects/p/dash/</translation>
+https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="550"/>
@@ -2062,8 +2062,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="294"/>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Impossible de démarrer dash: click-to-pay le gestionnaire</translation>
+        <source>Cannot start unpay: click-to-pay handler</source>
+        <translation>Impossible de démarrer unpay: click-to-pay le gestionnaire</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="352"/>
@@ -2145,35 +2145,35 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../dash.cpp" line="525"/>
-        <location filename="../dash.cpp" line="532"/>
-        <location filename="../dash.cpp" line="539"/>
-        <location filename="../dash.cpp" line="552"/>
+        <location filename="../unpay.cpp" line="525"/>
+        <location filename="../unpay.cpp" line="532"/>
+        <location filename="../unpay.cpp" line="539"/>
+        <location filename="../unpay.cpp" line="552"/>
         <source>Dash</source>
         <translation>Le Dash</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="526"/>
+        <location filename="../unpay.cpp" line="526"/>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
         <translation>Erreur : le répertoire de données spécifié « %1 » n&apos;existe pas.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="533"/>
+        <location filename="../unpay.cpp" line="533"/>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
         <translation>Erreur : impossible d&apos;analyser le fichier de configuration : %1. N’utilisez que la syntaxe clef=valeur.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="540"/>
+        <location filename="../unpay.cpp" line="540"/>
         <source>Error reading masternode configuration file: %1</source>
         <translation>Erreur de lecture du fichier de configuration du masternode: %1</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="552"/>
+        <location filename="../unpay.cpp" line="552"/>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
         <translation>Erreur : combinaison invalide de -regtest et de -testnet.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="612"/>
+        <location filename="../unpay.cpp" line="612"/>
         <source>Unpay Core didn&apos;t yet exit safely...</source>
         <translation>Unpay Core ne s&apos;est pas encore arrêté en toute sécurité...</translation>
     </message>
@@ -2982,7 +2982,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="157"/>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the unpay: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
         <translation>Un message qui était joint au Dash : URI qui sera sauvegardée avec la transaction pour référence. Note : Ce message ne sera pas envoyé à travers le réseau Dash.</translation>
     </message>
     <message>
@@ -3919,7 +3919,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
 </context>
 <context>
-    <name>dash-core</name>
+    <name>unpay-core</name>
     <message>
         <location filename="../dashstrings.cpp" line="16"/>
         <source>%s, you must set a rpcpassword in the configuration file:
@@ -4681,8 +4681,8 @@ Si le fichier n&apos;existe pas, créez-le avec les droits de lecture seule acco
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="269"/>
-        <source>Keep N dash anonymized (default: 0)</source>
-        <translation>Maintenir N dash anonymisé en permanence (défaut: 0)</translation>
+        <source>Keep N unpay anonymized (default: 0)</source>
+        <translation>Maintenir N unpay anonymisé en permanence (défaut: 0)</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="270"/>
@@ -5026,8 +5026,8 @@ Si le fichier n&apos;existe pas, créez-le avec les droits de lecture seule acco
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="338"/>
-        <source>Specify configuration file (default: dash.conf)</source>
-        <translation>Définir le fichier de configuration (défaut: dash.conf)</translation>
+        <source>Specify configuration file (default: unpay.conf)</source>
+        <translation>Définir le fichier de configuration (défaut: unpay.conf)</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="339"/>

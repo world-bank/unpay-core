@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "dash-config.h"
+#include "unpay-config.h"
 #endif
 
 #include "init.h"
@@ -140,7 +140,7 @@ void Shutdown()
     TRY_LOCK(cs_Shutdown, lockShutdown);
     if (!lockShutdown) return;
 
-    RenameThread("dash-shutoff");
+    RenameThread("unpay-shutoff");
     mempool.AddTransactionsUpdated(1);
     StopRPCThreads();
     ShutdownRPCMining();
@@ -226,7 +226,7 @@ std::string HelpMessage(HelpMessageMode hmm)
     strUsage += "  -blocknotify=<cmd>     " + _("Execute command when the best block changes (%s in cmd is replaced by block hash)") + "\n";
     strUsage += "  -checkblocks=<n>       " + _("How many blocks to check at startup (default: 288, 0 = all)") + "\n";
     strUsage += "  -checklevel=<n>        " + _("How thorough the block verification of -checkblocks is (0-4, default: 3)") + "\n";
-    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: dash.conf)") + "\n";
+    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: unpay.conf)") + "\n";
     if (hmm == HMM_BITCOIND)
     {
 #if !defined(WIN32)
@@ -351,7 +351,7 @@ std::string HelpMessage(HelpMessageMode hmm)
     strUsage += "\n" + _("Darksend options:") + "\n";
     strUsage += "  -enabledarksend=<n>          " + _("Enable use of automated darksend for funds stored in this wallet (0-1, default: 0)") + "\n";
     strUsage += "  -darksendrounds=<n>          " + _("Use N separate masternodes to anonymize funds  (2-8, default: 2)") + "\n";
-    strUsage += "  -anonymizedashamount=<n> " + _("Keep N dash anonymized (default: 0)") + "\n";
+    strUsage += "  -anonymizedashamount=<n> " + _("Keep N unpay anonymized (default: 0)") + "\n";
     strUsage += "  -liquidityprovider=<n>       " + _("Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)") + "\n";
 
     strUsage += "\n" + _("InstantX options:") + "\n";
@@ -395,7 +395,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("dash-loadblk");
+    RenameThread("unpay-loadblk");
 
     // -reindex
     if (fReindex) {
@@ -462,7 +462,7 @@ bool InitSanityCheck(void)
     return true;
 }
 
-/** Initialize dash.
+/** Initialize unpay.
  *  @pre Parameters should be parsed and config file should be read.
  */
 bool AppInit2(boost::thread_group& threadGroup)

@@ -111,12 +111,12 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location filename="../addressbookpage.cpp" line="45"/>
         <source>Choose the address to send coins to</source>
-        <translation>Scegli l&apos;indirizzo a cui inviare i dash</translation>
+        <translation>Scegli l&apos;indirizzo a cui inviare i unpay</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="46"/>
         <source>Choose the address to receive coins with</source>
-        <translation>Scegli l&apos;indirizzo con cui ricevere dash</translation>
+        <translation>Scegli l&apos;indirizzo con cui ricevere unpay</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="51"/>
@@ -136,7 +136,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location filename="../addressbookpage.cpp" line="65"/>
         <source>These are your Dash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono i tuoi indirizzi Dash per inviare i pagamenti. Controlla sempre l&apos;ammontare e l&apos;indirizzo destinatario prima di inviare i dash.</translation>
+        <translation>Questi sono i tuoi indirizzi Dash per inviare i pagamenti. Controlla sempre l&apos;ammontare e l&apos;indirizzo destinatario prima di inviare i unpay.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="69"/>
@@ -389,7 +389,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location filename="../bitcoingui.cpp" line="235"/>
         <source>Send coins to a Dash address</source>
-        <translation>Spedire dash ad un indirizzo Dash</translation>
+        <translation>Spedire unpay ad un indirizzo Dash</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
@@ -398,8 +398,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="242"/>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Richieste di pagamenti (genera codici QR e dash: URLs)</translation>
+        <source>Request payments (generates QR codes and unpay: URIs)</source>
+        <translation>Richieste di pagamenti (genera codici QR e unpay: URLs)</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
@@ -596,8 +596,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="322"/>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Apri un dash: URI o una richiesta di pagamento</translation>
+        <source>Open a unpay: URI or payment request</source>
+        <translation>Apri un unpay: URI o una richiesta di pagamento</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="324"/>
@@ -781,7 +781,7 @@ Indirizzo: %4
         <translation>Il portafoglio è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="449"/>
+        <location filename="../unpay.cpp" line="449"/>
         <source>A fatal error occurred. Dash can no longer continue safely and will quit.</source>
         <translation>Si è verificato un errore fatale. Dash non può continuare a funzionare correttamente e verrà chiuso.</translation>
     </message>
@@ -1633,9 +1633,9 @@ Indirizzo: %4
     <message>
         <location filename="../forms/optionsdialog.ui" line="524"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/dash/</source>
+https://www.transifex.com/projects/p/unpay/</source>
         <translation>La tua lingua manca o la traduzione è incompleta? Contribuisci alla traduzione qui: 
-https://www.transifex.com/projects/p/dash/</translation>
+https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="550"/>
@@ -2064,8 +2064,8 @@ Più URL vengono separati da una barra verticale |.</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="294"/>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Impossibile avviare dash: gestore click-to-pay</translation>
+        <source>Cannot start unpay: click-to-pay handler</source>
+        <translation>Impossibile avviare unpay: gestore click-to-pay</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="352"/>
@@ -2147,35 +2147,35 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../dash.cpp" line="525"/>
-        <location filename="../dash.cpp" line="532"/>
-        <location filename="../dash.cpp" line="539"/>
-        <location filename="../dash.cpp" line="552"/>
+        <location filename="../unpay.cpp" line="525"/>
+        <location filename="../unpay.cpp" line="532"/>
+        <location filename="../unpay.cpp" line="539"/>
+        <location filename="../unpay.cpp" line="552"/>
         <source>Dash</source>
         <translation>Dash</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="526"/>
+        <location filename="../unpay.cpp" line="526"/>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
         <translation>Errore: La cartella dati &quot;%1&quot; specificata non esiste.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="533"/>
+        <location filename="../unpay.cpp" line="533"/>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
         <translation>Errore: impossibile interpretare il file di configurazione: %1. Usare esclusivamente la sintassi chiave=valore.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="540"/>
+        <location filename="../unpay.cpp" line="540"/>
         <source>Error reading masternode configuration file: %1</source>
         <translation>Errore nella lettura del file di configurazione del masternode: %1</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="552"/>
+        <location filename="../unpay.cpp" line="552"/>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
         <translation>Errore: combinazione di -regtest e -testnet non valida.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="612"/>
+        <location filename="../unpay.cpp" line="612"/>
         <source>Unpay Core didn&apos;t yet exit safely...</source>
         <translation>Unpay Core non e&apos; chiuso sicuro ancora...</translation>
     </message>
@@ -2622,7 +2622,7 @@ Più URL vengono separati da una barra verticale |.</translation>
         <location filename="../sendcoinsdialog.cpp" line="521"/>
         <location filename="../sendcoinsdialog.cpp" line="531"/>
         <source>Send Coins</source>
-        <translation>Invia dash</translation>
+        <translation>Invia unpay</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="90"/>
@@ -2848,7 +2848,7 @@ Più URL vengono separati da una barra verticale |.</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="280"/>
         <source>Confirm send coins</source>
-        <translation>Conferma l&apos;invio di dash</translation>
+        <translation>Conferma l&apos;invio di unpay</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="435"/>
@@ -2984,8 +2984,8 @@ Più URL vengono separati da una barra verticale |.</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="157"/>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Un messaggio allegato con l&apos;URI dash che verrà memorizzato nella transazione per il tuo referente. Nota: questo messaggio non verrà inviato attraverso il network Dash.</translation>
+        <source>A message that was attached to the unpay: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <translation>Un messaggio allegato con l&apos;URI unpay che verrà memorizzato nella transazione per il tuo referente. Nota: questo messaggio non verrà inviato attraverso il network Dash.</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="583"/>
@@ -3869,7 +3869,7 @@ Più URL vengono separati da una barra verticale |.</translation>
         <location filename="../walletmodel.cpp" line="271"/>
         <location filename="../walletmodel.cpp" line="285"/>
         <source>Send Coins</source>
-        <translation>Invia dash</translation>
+        <translation>Invia unpay</translation>
     </message>
     <message numerus="yes">
         <location filename="../walletmodel.cpp" line="271"/>
@@ -3921,7 +3921,7 @@ Più URL vengono separati da una barra verticale |.</translation>
     </message>
 </context>
 <context>
-    <name>dash-core</name>
+    <name>unpay-core</name>
     <message>
         <location filename="../dashstrings.cpp" line="16"/>
         <source>%s, you must set a rpcpassword in the configuration file:
@@ -4684,7 +4684,7 @@ Se il file non esiste, crealo assegnando i permessi di lettura solamente al prop
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="269"/>
-        <source>Keep N dash anonymized (default: 0)</source>
+        <source>Keep N unpay anonymized (default: 0)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -5031,8 +5031,8 @@ Se il file non esiste, crealo assegnando i permessi di lettura solamente al prop
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="338"/>
-        <source>Specify configuration file (default: dash.conf)</source>
-        <translation>Configurazioni specifiche file (default: dash.conf)</translation>
+        <source>Specify configuration file (default: unpay.conf)</source>
+        <translation>Configurazioni specifiche file (default: unpay.conf)</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="339"/>

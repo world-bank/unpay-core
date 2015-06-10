@@ -2194,7 +2194,7 @@ void ThreadCheckDarkSendPool()
     if(fLiteMode) return; //disable all Darksend/Masternode related functionality
 
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("dash-darksend");
+    RenameThread("unpay-darksend");
 
     unsigned int c = 0;
     std::string errorMessage;

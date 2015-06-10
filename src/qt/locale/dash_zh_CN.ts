@@ -398,7 +398,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="242"/>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
+        <source>Request payments (generates QR codes and unpay: URIs)</source>
         <translation>请求付款(生成二维码和达世币付款协议的URI)</translation>
     </message>
     <message>
@@ -596,7 +596,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="322"/>
-        <source>Open a dash: URI or payment request</source>
+        <source>Open a unpay: URI or payment request</source>
         <translation>打开达世币：网页或付款请求</translation>
     </message>
     <message>
@@ -780,7 +780,7 @@ Address: %4
         <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="449"/>
+        <location filename="../unpay.cpp" line="449"/>
         <source>A fatal error occurred. Dash can no longer continue safely and will quit.</source>
         <translation>发生严重错误。达世币不能继续提供安全性，将退出。</translation>
     </message>
@@ -1633,9 +1633,9 @@ Address: %4
     <message>
         <location filename="../forms/optionsdialog.ui" line="524"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/dash/</source>
+https://www.transifex.com/projects/p/unpay/</source>
         <translation>缺少相关语言或翻译不完整? 请到这里协助翻译:
-https://www.transifex.com/projects/p/dash/</translation>
+https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="550"/>
@@ -2063,7 +2063,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="294"/>
-        <source>Cannot start dash: click-to-pay handler</source>
+        <source>Cannot start unpay: click-to-pay handler</source>
         <translation>无法启动达世币程序：click-to-pay handler</translation>
     </message>
     <message>
@@ -2146,35 +2146,35 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../dash.cpp" line="525"/>
-        <location filename="../dash.cpp" line="532"/>
-        <location filename="../dash.cpp" line="539"/>
-        <location filename="../dash.cpp" line="552"/>
+        <location filename="../unpay.cpp" line="525"/>
+        <location filename="../unpay.cpp" line="532"/>
+        <location filename="../unpay.cpp" line="539"/>
+        <location filename="../unpay.cpp" line="552"/>
         <source>Dash</source>
         <translation>达世币</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="526"/>
+        <location filename="../unpay.cpp" line="526"/>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
         <translation>错误：指定的数据目录“%1”不存在。</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="533"/>
+        <location filename="../unpay.cpp" line="533"/>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
         <translation>错误: 无法解析配置文件: %1. 只有钥匙=重要的私匙.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="540"/>
+        <location filename="../unpay.cpp" line="540"/>
         <source>Error reading masternode configuration file: %1</source>
         <translation>读取主节点配置错误：%1</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="552"/>
+        <location filename="../unpay.cpp" line="552"/>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
         <translation>错误：无效的 -regtest 与 -testnet 结合体。</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="612"/>
+        <location filename="../unpay.cpp" line="612"/>
         <source>Unpay Core didn&apos;t yet exit safely...</source>
         <translation>达世币核心还未安全退出...</translation>
     </message>
@@ -2984,7 +2984,7 @@ XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="157"/>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <source>A message that was attached to the unpay: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3922,7 +3922,7 @@ XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
 </context>
 <context>
-    <name>dash-core</name>
+    <name>unpay-core</name>
     <message>
         <location filename="../dashstrings.cpp" line="16"/>
         <source>%s, you must set a rpcpassword in the configuration file:
@@ -4672,7 +4672,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="269"/>
-        <source>Keep N dash anonymized (default: 0)</source>
+        <source>Keep N unpay anonymized (default: 0)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -5017,8 +5017,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="338"/>
-        <source>Specify configuration file (default: dash.conf)</source>
-        <translation>指定配置文件(默认： dash.conf)</translation>
+        <source>Specify configuration file (default: unpay.conf)</source>
+        <translation>指定配置文件(默认： unpay.conf)</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="339"/>

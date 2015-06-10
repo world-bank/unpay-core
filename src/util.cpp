@@ -993,7 +993,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "dash";
+    const char* pszModule = "unpay";
 #endif
     if (pex)
         return strprintf(
@@ -1023,7 +1023,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\Dash
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\Dash
     // Mac: ~/Library/Application Support/Dash
-    // Unix: ~/.dash
+    // Unix: ~/.unpay
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Dash";
@@ -1041,7 +1041,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Dash";
 #else
     // Unix
-    return pathRet / ".dash";
+    return pathRet / ".unpay";
 #endif
 #endif
 }
@@ -1090,7 +1090,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "dash.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "unpay.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1107,7 +1107,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()){
-        // Create empty dash.conf if it does not excist
+        // Create empty unpay.conf if it does not excist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -1119,7 +1119,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override dash.conf
+        // Don't overwrite existing settings so command line settings override unpay.conf
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {

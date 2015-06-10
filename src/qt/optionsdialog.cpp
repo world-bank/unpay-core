@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "dash-config.h"
+#include "unpay-config.h"
 #endif
 
 #include "optionsdialog.h"

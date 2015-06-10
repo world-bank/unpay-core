@@ -106,19 +106,19 @@ Release Process
 
  Build unpayd and unpay-qt on Linux32, Linux64, and Win32:
 
-	./bin/gbuild --commit dash=v${VERSION} ../dash/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../dash/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gbuild --commit unpay=v${VERSION} ../unpay/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../unpay/contrib/gitian-descriptors/gitian-linux.yml
 	pushd build/out
-	zip -r dash-${VERSION}-linux-gitian.zip *
-	mv dash-${VERSION}-linux-gitian.zip ../../../
+	zip -r unpay-${VERSION}-linux-gitian.zip *
+	mv unpay-${VERSION}-linux-gitian.zip ../../../
 	popd
-	./bin/gbuild --commit dash=v${VERSION} ../dash/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../dash/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gbuild --commit unpay=v${VERSION} ../unpay/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../unpay/contrib/gitian-descriptors/gitian-win.yml
 	pushd build/out
-	zip -r dash-${VERSION}-win-gitian.zip *
-	mv dash-${VERSION}-win-gitian.zip ../../../
+	zip -r unpay-${VERSION}-win-gitian.zip *
+	mv unpay-${VERSION}-win-gitian.zip ../../../
 	popd
-    ./bin/gbuild --commit dash=v${VERSION} ../dash/contrib/gitian-descriptors/gitian-osx-bitcoin.yml
+    ./bin/gbuild --commit unpay=v${VERSION} ../unpay/contrib/gitian-descriptors/gitian-osx-bitcoin.yml
     ./bin/gsign --signer $SIGNER --release ${VERSION}-osx --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx-bitcoin.yml
 	pushd build/out
 	mv Dash-Qt.dmg ../../../

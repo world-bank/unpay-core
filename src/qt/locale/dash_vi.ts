@@ -293,7 +293,7 @@ Sản phẩm này bao gồm phần mềm được phát triển bởi dự án O
     <message>
         <location filename="../askpassphrasedialog.cpp" line="124"/>
         <source>Dash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dashs from being stolen by malware infecting your computer.</source>
-        <translation>Dash sẽ được đóng lại bây giờ để hoàn thành tiến trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ dash khỏi bị trộm bởi những mã độc lây nhiễm vào máy tính của bạn.</translation>
+        <translation>Dash sẽ được đóng lại bây giờ để hoàn thành tiến trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ unpay khỏi bị trộm bởi những mã độc lây nhiễm vào máy tính của bạn.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="128"/>
@@ -398,8 +398,8 @@ Sản phẩm này bao gồm phần mềm được phát triển bởi dự án O
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="242"/>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Yêu cầu thanh toán (sinh mã QR và dash: URIs)</translation>
+        <source>Request payments (generates QR codes and unpay: URIs)</source>
+        <translation>Yêu cầu thanh toán (sinh mã QR và unpay: URIs)</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
@@ -596,8 +596,8 @@ Sản phẩm này bao gồm phần mềm được phát triển bởi dự án O
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="322"/>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Mở một dash: URI hoặc một yêu cầu thanh toán</translation>
+        <source>Open a unpay: URI or payment request</source>
+        <translation>Mở một unpay: URI hoặc một yêu cầu thanh toán</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="324"/>
@@ -780,7 +780,7 @@ Kiểu: %3
         <translation>Ví &lt;b&gt;đã được mã hoá&lt;/b&gt; và hiện tại &lt;b&gt;đã được khoá&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="449"/>
+        <location filename="../unpay.cpp" line="449"/>
         <source>A fatal error occurred. Dash can no longer continue safely and will quit.</source>
         <translation>Một lỗi nghiêm trọng đã xảy ra. Dash không thể tiếp tục một cách an toàn và sẽ thoát.</translation>
     </message>
@@ -1632,9 +1632,9 @@ Kiểu: %3
     <message>
         <location filename="../forms/optionsdialog.ui" line="524"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/dash/</source>
+https://www.transifex.com/projects/p/unpay/</source>
         <translation>Ngôn ngữ ị thiếu hoặc việc dịch chưa hoàn tất? Tham gia dịch giúp tại đây:
-https://www.transifex.com/projects/p/dash/</translation>
+https://www.transifex.com/projects/p/unpay/</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="550"/>
@@ -2062,8 +2062,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="294"/>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Không thể khởi động dash: trình xử lý click-to-pay</translation>
+        <source>Cannot start unpay: click-to-pay handler</source>
+        <translation>Không thể khởi động unpay: trình xử lý click-to-pay</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="352"/>
@@ -2145,35 +2145,35 @@ https://www.transifex.com/projects/p/dash/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../dash.cpp" line="525"/>
-        <location filename="../dash.cpp" line="532"/>
-        <location filename="../dash.cpp" line="539"/>
-        <location filename="../dash.cpp" line="552"/>
+        <location filename="../unpay.cpp" line="525"/>
+        <location filename="../unpay.cpp" line="532"/>
+        <location filename="../unpay.cpp" line="539"/>
+        <location filename="../unpay.cpp" line="552"/>
         <source>Dash</source>
         <translation>Dash</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="526"/>
+        <location filename="../unpay.cpp" line="526"/>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
         <translation>Lỗi: Thư mục được chọn &quot;%1&quot; không tồn tại.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="533"/>
+        <location filename="../unpay.cpp" line="533"/>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
         <translation>Lỗi: Không phân tích được tệp cấu hình: %1. Chỉ sử dụng cú pháp key=value.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="540"/>
+        <location filename="../unpay.cpp" line="540"/>
         <source>Error reading masternode configuration file: %1</source>
         <translation>Lỗi đọc tệp cấu hình masternode: %1</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="552"/>
+        <location filename="../unpay.cpp" line="552"/>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
         <translation>Lỗi: Tổng hợp không hợp lệ của -regtest và -testnet.</translation>
     </message>
     <message>
-        <location filename="../dash.cpp" line="612"/>
+        <location filename="../unpay.cpp" line="612"/>
         <source>Unpay Core didn&apos;t yet exit safely...</source>
         <translation>Unpay Core chưa được thoát một cách an toàn...</translation>
     </message>
@@ -2982,8 +2982,8 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="157"/>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Một thông điệp được đính với dash: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng Dash. </translation>
+        <source>A message that was attached to the unpay: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
+        <translation>Một thông điệp được đính với unpay: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng Dash. </translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="583"/>
@@ -3919,7 +3919,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
 </context>
 <context>
-    <name>dash-core</name>
+    <name>unpay-core</name>
     <message>
         <location filename="../dashstrings.cpp" line="16"/>
         <source>%s, you must set a rpcpassword in the configuration file:
@@ -4681,8 +4681,8 @@ Nếu tệp không tồn tại, tạo nó với quyền tệp owner-readable-onl
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="269"/>
-        <source>Keep N dash anonymized (default: 0)</source>
-        <translation>Giữ N dash ẩn danh hoá (ngầm định: 0)</translation>
+        <source>Keep N unpay anonymized (default: 0)</source>
+        <translation>Giữ N unpay ẩn danh hoá (ngầm định: 0)</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="270"/>
@@ -5026,8 +5026,8 @@ Nếu tệp không tồn tại, tạo nó với quyền tệp owner-readable-onl
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="338"/>
-        <source>Specify configuration file (default: dash.conf)</source>
-        <translation>Xác định tệp cấu hình (ngầm định: dash.conf)</translation>
+        <source>Specify configuration file (default: unpay.conf)</source>
+        <translation>Xác định tệp cấu hình (ngầm định: unpay.conf)</translation>
     </message>
     <message>
         <location filename="../dashstrings.cpp" line="339"/>

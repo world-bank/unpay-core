@@ -133,7 +133,7 @@ It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 ```bash
 DASH_ROOT=$(pwd)
 
-# Pick some path to install BDB to, here we create a directory within the dash directory
+# Pick some path to install BDB to, here we create a directory within the unpay directory
 BDB_PREFIX="${DASH_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
@@ -199,7 +199,7 @@ Hardening enables the following features:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, dash should be built with a non-executable stack
+    vulnerable buffers are found. By default, unpay should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
@@ -215,7 +215,7 @@ Hardening enables the following features:
 
 Disable-wallet mode
 --------------------
-When the intention is to run only a P2P node without a wallet, dash may be compiled in
+When the intention is to run only a P2P node without a wallet, unpay may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet

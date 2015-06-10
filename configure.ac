@@ -6,7 +6,7 @@ define(_CLIENT_VERSION_REVISION, 2)
 define(_CLIENT_VERSION_BUILD, 23)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2015)
-AC_INIT([Unpay Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@dashpay.io],[dash])
+AC_INIT([Unpay Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@dashpay.io],[unpay])
 AC_CONFIG_AUX_DIR([src/build-aux])
 AC_CONFIG_MACRO_DIR([src/m4])
 AC_CANONICAL_HOST
@@ -111,7 +111,7 @@ AC_ARG_WITH([protoc-bindir],[AS_HELP_STRING([--with-protoc-bindir=BIN_DIR],[spec
 
 
 AC_CONFIG_SRCDIR([src])
-AC_CONFIG_HEADERS([src/dash-config.h])
+AC_CONFIG_HEADERS([src/unpay-config.h])
 
 dnl Checks for programs.
 AC_PROG_CXX
@@ -312,7 +312,7 @@ dnl Check for pthread compile/link requirements
 AX_PTHREAD
 INCLUDES="$INCLUDES $PTHREAD_CFLAGS"
 
-# The following macro will add the necessary defines to dash-config.h, but
+# The following macro will add the necessary defines to unpay-config.h, but
 # they also need to be passed down to any subprojects. Pull the results out of
 # the cache and add them to CPPFLAGS.
 AC_SYS_LARGEFILE

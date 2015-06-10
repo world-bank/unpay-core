@@ -42,7 +42,7 @@ Use the autogen script to prepare the build environment.
 **precompiled binaries**
 
 Precompiled binaries are available at github, see
-https://github.com/dashproject/dash-binaries
+https://github.com/dashproject/unpay-binaries
 
 Always verify the signatures and checksums.
 

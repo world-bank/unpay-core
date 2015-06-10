@@ -1,7 +1,7 @@
 *.tar.gz
 
 *.exe
-src/dash
+src/unpay
 src/unpayd
 src/unpay-cli
 src/test/test_dash
@@ -13,8 +13,8 @@ autom4te.cache/
 config.log
 config.status
 configure
-src/dash-config.h
-src/dash-config.h.in
+src/unpay-config.h
+src/unpay-config.h.in
 src/build-aux/
 src/stamp-h1
 share/setup.nsi
@@ -36,7 +36,7 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
-.dash
+.unpay
 *.a
 *.pb.cc
 *.pb.h
@@ -56,7 +56,7 @@ Dash-Qt.app
 
 # Unit-tests
 Makefile.test
-dash-qt_test
+unpay-qt_test
 
 # Resources cpp
 qrc_*.cpp

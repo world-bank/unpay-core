@@ -8,7 +8,7 @@
 #define BITCOIN_MAIN_H
 
 #if defined(HAVE_CONFIG_H)
-#include "dash-config.h"
+#include "unpay-config.h"
 #endif
 
 #include "bignum.h"

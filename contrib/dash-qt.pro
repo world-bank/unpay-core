@@ -7,7 +7,7 @@ HEADERS += \
     ../src/allocators.h \
     ../src/base58.h \
     ../src/bignum.h \
-    ../src/dash-config.h \
+    ../src/unpay-config.h \
     ../src/bloom.h \
     ../src/chainparams.h \
     ../src/checkpoints.h \
@@ -230,7 +230,7 @@ SOURCES += \
     ../src/qt/coincontroldialog.cpp \
     ../src/qt/coincontroltreewidget.cpp \
     ../src/qt/csvmodelwriter.cpp \
-    ../src/qt/dash.cpp \
+    ../src/qt/unpay.cpp \
     ../src/qt/darksendconfig.cpp \
     ../src/qt/editaddressdialog.cpp \
     ../src/qt/guiutil.cpp \
@@ -339,4 +339,4 @@ FORMS += \
     ../src/qt/forms/transactiondescdialog.ui
 
 RESOURCES += \
-    ../src/qt/dash.qrc
+    ../src/qt/unpay.qrc

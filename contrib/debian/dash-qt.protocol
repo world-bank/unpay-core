@@ -1,6 +1,6 @@
 [Protocol]
 exec=unpay-qt '%u'
-protocol=dash
+protocol=unpay
 input=none
 output=none
 helper=true

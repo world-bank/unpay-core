@@ -240,7 +240,7 @@ Value dumpprivkey(const Array& params, bool fHelp)
             "\nReveals the private key corresponding to 'dashaddress'.\n"
             "Then the importprivkey can be used with this output\n"
             "\nArguments:\n"
-            "1. \"dashaddress\"   (string, required) The dash address for the private key\n"
+            "1. \"dashaddress\"   (string, required) The unpay address for the private key\n"
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
             "\nExamples:\n"

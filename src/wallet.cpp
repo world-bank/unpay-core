@@ -1921,7 +1921,7 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, int64_t> >& vecSend,
                 {
                     // Fill a vout to ourself
                     // TODO: pass in scriptChange instead of reservekey so
-                    // change transaction isn't always pay-to-dash-address
+                    // change transaction isn't always pay-to-unpay-address
                     CScript scriptChange;
 
                     // coin control: send change to custom address

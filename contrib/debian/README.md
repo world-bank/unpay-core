@@ -4,7 +4,7 @@ Debian
 This directory contains files used to package unpayd/unpay-qt
 for Debian-based Linux systems. If you compile unpayd/unpay-qt yourself, there are some useful files here.
 
-## dash: URI support ##
+## unpay: URI support ##
 
 
 unpay-qt.desktop  (Gnome / Open Desktop)

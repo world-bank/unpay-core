@@ -10,7 +10,7 @@ noinst_LIBRARIES = libdashqt.a
 SUBDIRS = . $(BUILD_TEST_QT)
 DIST_SUBDIRS = . test
 
-# dash qt core #
+# unpay qt core #
 QT_TS = \
   locale/dash_bar.ts \
   locale/dash_bg.ts \
@@ -112,13 +112,13 @@ BITCOIN_MM = \
   macnotificationhandler.mm
 
 QT_MOC = \
-  dash.moc \
+  unpay.moc \
   intro.moc \
   overviewpage.moc \
   rpcconsole.moc
 
 QT_QRC_CPP = qrc_dash.cpp
-QT_QRC = dash.qrc
+QT_QRC = unpay.qrc
 
 PROTOBUF_CC = paymentrequest.pb.cc
 PROTOBUF_H = paymentrequest.pb.h
@@ -227,7 +227,7 @@ RES_ICONS = \
 
 
 BITCOIN_QT_CPP = \
-  dash.cpp \
+  unpay.cpp \
   bitcoinaddressvalidator.cpp \
   bitcoinamountfield.cpp \
   bitcoingui.cpp \
@@ -319,7 +319,7 @@ $(QT_MOC_CPP): $(PROTOBUF_H)
 # unpay-qt binary #
 dash_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
-dash_qt_SOURCES = dash.cpp
+dash_qt_SOURCES = unpay.cpp
 if TARGET_DARWIN
   dash_qt_SOURCES += $(BITCOIN_MM)
 endif
@@ -351,7 +351,7 @@ translate: dashstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BIT
 	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts locale/dash_en.ts
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_QM) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) $(RES_CSS) $(PROTOBUF_H)
-	@cd $(abs_srcdir); test -f $(RCC) && QT_SELECT=$(QT_SELECT) $(RCC) -name dash -o $(abs_builddir)/$@ $< || \
+	@cd $(abs_srcdir); test -f $(RCC) && QT_SELECT=$(QT_SELECT) $(RCC) -name unpay -o $(abs_builddir)/$@ $< || \
 	  echo error: could not build $@
 	$(SED) -e '/^\*\*.*Created:/d' $@ > $@.n && mv $@{.n,}
 	$(SED) -e '/^\*\*.*by:/d' $@  > $@.n && mv $@{.n,}

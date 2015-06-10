@@ -76,7 +76,7 @@ Dash
 -------
 MSYS shell:
 
-	cd \dash
+	cd \unpay
 	sh autogen.sh
 	sh configure
 	mingw32-make
