@@ -1426,6 +1426,7 @@ double ConvertBitsToDouble(unsigned int nBits)
 
     return dDiff;
 }
+#if 0
 
 int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
 {
@@ -1447,7 +1448,8 @@ int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
             if (nSubsidy < 25) nSubsidy = 25;
         }
     } else {
-        nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));
+        nSubsidy = (1111.0 / (pow((dDiff+1.0),2.0)));        
+        // 1111/((x+1.0)^2)
         if (nSubsidy > 500) nSubsidy = 500;
         if (nSubsidy < 1) nSubsidy = 1;
     }
@@ -1464,6 +1466,26 @@ int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
 
     return nSubsidy + nFees;
 }
+
+#else
+
+int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
+{
+    int64_t nSubsidy = 0;
+    if(nHeight < 100) {
+        nSubsidy = 10201314000;
+    }else{
+        nSubsidy = 0;       
+    }
+
+    // LogPrintf("height %u diff %4.2f reward %i \n", nHeight, dDiff, nSubsidy);
+    nSubsidy *= COIN;
+
+    return nSubsidy + nFees;
+}
+
+#endif
+
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
 {
