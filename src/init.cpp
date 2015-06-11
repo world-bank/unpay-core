@@ -595,7 +595,7 @@ bool AppInit2(boost::thread_group& threadGroup)
 
     fBenchmark = GetBoolArg("-benchmark", false);
     mempool.setSanityCheck(GetBoolArg("-checkmempool", RegTest()));
-    Checkpoints::fEnabled = GetBoolArg("-checkpoints", true);
+    Checkpoints::fEnabled = GetBoolArg("-checkpoints", false);
 
     // -par=0 means autodetect, but nScriptCheckThreads==0 means no concurrency
     nScriptCheckThreads = GetArg("-par", DEFAULT_SCRIPTCHECK_THREADS);
