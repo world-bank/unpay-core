@@ -1469,13 +1469,15 @@ int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
 
 #else
 
-int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
+uint64_t GetBlockValue(int nBits, int nHeight, uint64_t nFees)
 {
-    int64_t nSubsidy = 0;
-    if(nHeight < 92) {
-        nSubsidy = 10000000000;
+    uint64_t nSubsidy = 0;
+    if(nHeight < 180) {
+        nSubsidy = 1000000000;
     }else{
-        nSubsidy = 0;       
+        // 2222222/(((x+2600)/9)^2)
+        double dDiff = ConvertBitsToDouble(nBits);
+        nSubsidy = (2222222.0 / (pow((dDiff+2600.0)/9.0,2.0)));
     }
 
     // LogPrintf("height %u diff %4.2f reward %i \n", nHeight, dDiff, nSubsidy);
@@ -1487,9 +1489,9 @@ int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees)
 #endif
 
 
-int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
+uint64_t GetMasternodePayment(int nHeight, uint64_t blockValue)
 {
-    int64_t ret = blockValue/5; // start at 20%
+    uint64_t ret = blockValue/5; // start at 20%
 
     if(TestNet()) {
         if(nHeight > 46000)             ret += blockValue / 20; //25% - 2014-10-07
