@@ -70,6 +70,7 @@ public:
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 50 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
+
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
@@ -82,7 +83,7 @@ public:
         assert(hashGenesisBlock == uint256("0x000003e14b723be4346c6ed7c61d46c7e6d6d83d4b1c3db38b2a38248d5a134c"));
         assert(genesis.hashMerkleRoot == uint256("0xb6df1d332acec3f426902d1ab6f981f9d69eeb07e5a78b8592f9ab9f3a1bbee0"));
 
-        vSeeds.push_back(CDNSSeedData("unpay.info", "dnsseed.unpaybank.info"));
+        vSeeds.push_back(CDNSSeedData("unpaybank.info", "dnsseed.unpaybank.info"));
         //vSeeds.push_back(CDNSSeedData("darkcoin.qa", "dnsseed.darkcoin.qa"));
         //vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
         //vSeeds.push_back(CDNSSeedData("unpaypay.io", "dnsseed.unpaypay.io"));
@@ -143,11 +144,11 @@ public:
         strDataDir = "testnet3";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime    = 1433994215;
-        genesis.nNonce   = 6337833;
+        genesis.nTime    = 1433994530;
+        genesis.nNonce   = 72436;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000003e14b723be4346c6ed7c61d46c7e6d6d83d4b1c3db38b2a38248d5a134c"));
+        assert(hashGenesisBlock == uint256("0x00000890f1794585e882cbb9ec24760f2293fba338eb919232ff9c4f740267f4"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -157,7 +158,7 @@ public:
         // vSeeds.push_back(CDNSSeedData("darkcoin.io",  "testnet-seed.darkcoin.io"));
         // vSeeds.push_back(CDNSSeedData("darkcoin.qa", "testnet-seed.darkcoin.qa"));
         // vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
-        vSeeds.push_back(CDNSSeedData("unpay.io",  "testnet-seed.unpaybank.info"));
+        vSeeds.push_back(CDNSSeedData("unpaybank.info",  "testnet-seed.unpaybank.info"));
  
         base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet unpay addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet unpay script addresses start with '8' or '9'
@@ -184,15 +185,15 @@ public:
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
         
-        genesis.nTime    = 1433994215;
+        genesis.nTime    = 1433994930;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 6337833;
+        genesis.nNonce   = 201766;
 
         nDefaultPort = 13338;
         strDataDir = "regtest";
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e"));
+        assert(hashGenesisBlock == uint256("0x00000fab14b23407944729f8f69ba3b1633eaef0d9c313aa5f19dcd20a10334f"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
