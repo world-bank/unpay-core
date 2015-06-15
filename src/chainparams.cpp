@@ -158,7 +158,7 @@ public:
         // vSeeds.push_back(CDNSSeedData("darkcoin.io",  "testnet-seed.darkcoin.io"));
         // vSeeds.push_back(CDNSSeedData("darkcoin.qa", "testnet-seed.darkcoin.qa"));
         // vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
-        vSeeds.push_back(CDNSSeedData("unpaybank.info",  "testnet-seed.unpaybank.info"));
+        vSeeds.push_back(CDNSSeedData("unpaybank.info",  "testnet-dnsseed.unpaybank.info"));
  
         base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet unpay addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet unpay script addresses start with '8' or '9'
