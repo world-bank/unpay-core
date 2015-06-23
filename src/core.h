@@ -49,7 +49,7 @@ class CTransaction;
 
 /** No amount larger than this (in satoshi) is valid */
 
-static const uint64_t MAX_MONEY = 180000000000UL * COIN; //
+static const uint64_t MAX_MONEY = 90000000000UL * COIN; //
 inline bool MoneyRange(uint64_t nValue) { return (nValue <= MAX_MONEY); }
 //inline bool MoneyRange(uint64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 
