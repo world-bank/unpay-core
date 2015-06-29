@@ -26,9 +26,9 @@ public:
      */
     enum Unit
     {
-        UNP,
-        mUNP,
-        uUNP,
+        MCP,
+        mMCP,
+        uMCP,
         duffs
     };
 

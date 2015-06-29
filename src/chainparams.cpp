@@ -28,41 +28,22 @@ unsigned int pnSeed[] =
 
 /*
 
-// Technical test currency 2015.5.30
+// Technical test currency 2015.6.29
 
-$ python genesis.py -a X11 -z "Since May 2015, the Republic of Korea has been investigating an outbreak of MERS. It is the largest known outbreak of MERS outside the Arabian Peninsula."
+//for Mobicoin livenet
 
-04ffff001d01044c9953696e6365204d617920323031352c207468652052657075626c6963206f66204b6f72656120686173206265656e20696e7665737469676174696e6720616e206f7574627265616b206f66204d4552532e20497420697320746865206c617267657374206b6e6f776e206f7574627265616b206f66204d455253206f75747369646520746865204172616269616e2050656e696e73756c612e
-
+$ python genesis.py -a X11 -z "29 June 2015, Greece shut down its banking system"
+04ffff001d0104313239204a756e6520323031352c20477265656365207368757420646f776e206974732062616e6b696e672073797374656d
 algorithm: X11
-
-merkle hash: b6df1d332acec3f426902d1ab6f981f9d69eeb07e5a78b8592f9ab9f3a1bbee0
-
-pszTimestamp: Since May 2015, the Republic of Korea has been investigating an outbreak of MERS. It is the largest known outbreak of MERS outside the Arabian Peninsula.
-
+merkle hash: e541e5c7ded4095808d96f122a3bb7ee79caf6d6d4984538cb879ee036faf91a
+pszTimestamp: 29 June 2015, Greece shut down its banking system
 pubkey: 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
-time: 1433994215
+time: 1435570440
 bits: 0x1e0ffff0
 Searching for genesis hash..
-11824.0 hash/s, estimate: 0.0 hgenesis hash found!
-nonce: 6337833
-genesis hash: 000003e14b723be4346c6ed7c61d46c7e6d6d83d4b1c3db38b2a38248d5a134c
-
-// Biz Test currency 2015.6.23
-
-// for livenet
-$ python genesis.py -a X11 -z "23 June 2015, Samsung heir apologizes over MERS outbreak at its hospital"
-04ffff001d0104483233204a756e6520323031352c2053616d73756e6720686569722061706f6c6f67697a6573206f766572204d455253206f7574627265616b2061742069747320686f73706974616c
-algorithm: X11
-merkle hash: 6e56cf9e2477064c15d6fceb458c882484f5cfd94907d657c2140831beacb74c
-pszTimestamp: 23 June 2015, Samsung heir apologizes over MERS outbreak at its hospital
-pubkey: 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
-time: 1435041629
-bits: 0x1e0ffff0
-Searching for genesis hash..
-15112.0 hash/s, estimate: 0.0 hgenesis hash found!
-nonce: 64680
-genesis hash: 0000044bab71fe48bcfcc2dea86225b1c6474e296f9365a0e2052a65b8c12663
+13819.0 hash/s, estimate: 0.0 hgenesis hash found!
+nonce: 454528
+genesis hash: 000005112eeaf12c018c055a02050d931a137d95b0ab12c81c42c18f3ed29e1e
 
 */
 
@@ -77,13 +58,13 @@ public:
         pchMessageStart[2] = 0x6b;
         pchMessageStart[3] = 0xbd;
         vAlertPubKey = ParseHex("048240a8748a80a286b270ba126705ced4f2ce5a7847b3610ea3c06513150dade2a8512ed5ea86320824683fc0818f0ac019214973e677acd1244f6d0571fc5103");
-        nDefaultPort = 3338;
-        nRPCPort = 3339;
+        nDefaultPort = 4448;
+        nRPCPort = 4449;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);  // Unpay starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
 
         // Genesis block
-        const char* pszTimestamp = "23 June 2015, Samsung heir apologizes over MERS outbreak at its hospital";
+        const char* pszTimestamp = "29 June 2015, Greece shut down its banking system";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -95,15 +76,15 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1435041629;
+        genesis.nTime    = 1435570440;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 64680;
+        genesis.nNonce   = 454528;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000044bab71fe48bcfcc2dea86225b1c6474e296f9365a0e2052a65b8c12663"));
-        assert(genesis.hashMerkleRoot == uint256("0x6e56cf9e2477064c15d6fceb458c882484f5cfd94907d657c2140831beacb74c"));
+        assert(hashGenesisBlock == uint256("0x000005112eeaf12c018c055a02050d931a137d95b0ab12c81c42c18f3ed29e1e"));
+        assert(genesis.hashMerkleRoot == uint256("0xe541e5c7ded4095808d96f122a3bb7ee79caf6d6d4984538cb879ee036faf91a"));
 
-        vSeeds.push_back(CDNSSeedData("unpaybank.info", "dnsseed.unpaybank.info"));
+        vSeeds.push_back(CDNSSeedData("mobicoin.info", "mobiseed.unpaybank.info"));
         //vSeeds.push_back(CDNSSeedData("darkcoin.qa", "dnsseed.darkcoin.qa"));
         //vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
         //vSeeds.push_back(CDNSSeedData("unpaypay.io", "dnsseed.unpaypay.io"));
@@ -148,18 +129,18 @@ static CMainParams mainParams;
 // Testnet (v3)
 // for testnet 
 /*
-$ python genesis.py -a X11 -z "23 June 2015, Samsung heir apologizes over MERS outbreak at its hospital"
-04ffff001d0104483233204a756e6520323031352c2053616d73756e6720686569722061706f6c6f67697a6573206f766572204d455253206f7574627265616b2061742069747320686f73706974616c
+$ python genesis.py -a X11 -z "29 June 2015, Greece shut down its banking system"
+04ffff001d0104313239204a756e6520323031352c20477265656365207368757420646f776e206974732062616e6b696e672073797374656d
 algorithm: X11
-merkle hash: 6e56cf9e2477064c15d6fceb458c882484f5cfd94907d657c2140831beacb74c
-pszTimestamp: 23 June 2015, Samsung heir apologizes over MERS outbreak at its hospital
+merkle hash: e541e5c7ded4095808d96f122a3bb7ee79caf6d6d4984538cb879ee036faf91a
+pszTimestamp: 29 June 2015, Greece shut down its banking system
 pubkey: 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
-time: 1435041593
+time: 1435574202
 bits: 0x1e0ffff0
 Searching for genesis hash..
-16057.0 hash/s, estimate: 0.0 hgenesis hash found!
-nonce: 1530143
-genesis hash: 000004ea8b1130ffbd9296a072f24058e9b7bbb6216395bc4253fc8b6e236e03
+13835.0 hash/s, estimate: 0.0 hgenesis hash found!
+nonce: 187241
+genesis hash: 00000080ca06289e92c2a37d96b6c19f5135b6dfe7aaebc56938fdfe6f7c3716
 */
 
 //
@@ -175,16 +156,16 @@ public:
         pchMessageStart[3] = 0xff;
 
         vAlertPubKey = ParseHex("04517d8a699cb43d3938d7b24faaff7cda448ca4ea267723ba614784de661949bf632d6304316b244646dea079735b9a6fc4af804efb4752075b9fe2245e14e412");
-        nDefaultPort = 13338;
-        nRPCPort = 13339;
+        nDefaultPort = 14448;
+        nRPCPort = 14449;
         strDataDir = "testnet3";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime    = 1435041593;
-        genesis.nNonce   = 1530143;
+        genesis.nTime    = 1435574202;
+        genesis.nNonce   = 187241;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000004ea8b1130ffbd9296a072f24058e9b7bbb6216395bc4253fc8b6e236e03"));
+        assert(hashGenesisBlock == uint256("0x00000080ca06289e92c2a37d96b6c19f5135b6dfe7aaebc56938fdfe6f7c3716"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -194,7 +175,7 @@ public:
         // vSeeds.push_back(CDNSSeedData("darkcoin.io",  "testnet-seed.darkcoin.io"));
         // vSeeds.push_back(CDNSSeedData("darkcoin.qa", "testnet-seed.darkcoin.qa"));
         // vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
-        vSeeds.push_back(CDNSSeedData("unpaybank.info",  "testnet-dnsseed.unpaybank.info"));
+        vSeeds.push_back(CDNSSeedData("mobicoin.info",  "test-mobiseed.unpaybank.info"));
  
         base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet unpay addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet unpay script addresses start with '8' or '9'
@@ -213,18 +194,18 @@ static CTestNetParams testNetParams;
 //
 /*
 // for regtest
-$ python genesis.py -a X11 -z "23 June 2015, Samsung heir apologizes over MERS outbreak at its hospital"
-04ffff001d0104483233204a756e6520323031352c2053616d73756e6720686569722061706f6c6f67697a6573206f766572204d455253206f7574627265616b2061742069747320686f73706974616c
+$ python genesis.py -a X11 -z "29 June 2015, Greece shut down its banking system"
+04ffff001d0104313239204a756e6520323031352c20477265656365207368757420646f776e206974732062616e6b696e672073797374656d
 algorithm: X11
-merkle hash: 6e56cf9e2477064c15d6fceb458c882484f5cfd94907d657c2140831beacb74c
-pszTimestamp: 23 June 2015, Samsung heir apologizes over MERS outbreak at its hospital
+merkle hash: e541e5c7ded4095808d96f122a3bb7ee79caf6d6d4984538cb879ee036faf91a
+pszTimestamp: 29 June 2015, Greece shut down its banking system
 pubkey: 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
-time: 1435041658
+time: 1435574369
 bits: 0x1e0ffff0
 Searching for genesis hash..
-10678.0 hash/s, estimate: 0.0 hgenesis hash found!
-nonce: 1031793
-genesis hash: 00000fbc2e99ff224f3b0b38316239ee2215f2408f0747ea925ad2574b7afb23
+14291.0 hash/s, estimate: 0.0 hgenesis hash found!
+nonce: 735275
+genesis hash: 0000060da145c9a2be8961d0edfda26ded757dd23016e24b4bddac773978188a
 */
 class CRegTestParams : public CTestNetParams {
 public:
@@ -236,15 +217,15 @@ public:
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
         
-        genesis.nTime    = 1435041658;
+        genesis.nTime    = 1435574369;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 1031793;
+        genesis.nNonce   = 735275;
 
-        nDefaultPort = 13338;
+        nDefaultPort = 14448;
         strDataDir = "regtest";
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000fbc2e99ff224f3b0b38316239ee2215f2408f0747ea925ad2574b7afb23"));
+        assert(hashGenesisBlock == uint256("0x0000060da145c9a2be8961d0edfda26ded757dd23016e24b4bddac773978188a"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }

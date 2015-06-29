@@ -30,7 +30,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::UNP)
+    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::MCP)
     {
 
     }
