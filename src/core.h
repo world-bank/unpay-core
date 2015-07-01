@@ -49,9 +49,8 @@ class CTransaction;
 
 /** No amount larger than this (in satoshi) is valid */
 
-static const uint64_t MAX_MONEY = 90000000000UL * COIN; //
-inline bool MoneyRange(uint64_t nValue) { return (nValue <= MAX_MONEY); }
-//inline bool MoneyRange(uint64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
+static const int64_t MAX_MONEY = 90000000000L * COIN; //
+inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 
 /** An outpoint - a combination of a transaction hash and an index n into its vout */
 class COutPoint

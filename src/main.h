@@ -181,8 +181,8 @@ bool GetTransaction(const uint256 &hash, CTransaction &tx, uint256 &hashBlock, b
 /** Find the best known block, and make it the tip of the block chain */
 bool ActivateBestChain(CValidationState &state);
 double ConvertBitsToDouble(unsigned int nBits);
-uint64_t GetBlockValue(int nBits, int nHeight, uint64_t nFees);
-uint64_t GetMasternodePayment(int nHeight, uint64_t blockValue);
+int64_t GetBlockValue(int nBits, int nHeight, int64_t nFees);
+int64_t GetMasternodePayment(int nHeight, int64_t blockValue);
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock);
 
 void UpdateTime(CBlockHeader& block, const CBlockIndex* pindexPrev);
