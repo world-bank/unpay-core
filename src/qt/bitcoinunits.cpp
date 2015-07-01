@@ -105,9 +105,9 @@ qint64 BitcoinUnits::maxAmount(int unit)
 {
     switch(unit)
     {
-    case MCP:   return Q_INT64_C(90000000000);
-    case mMCP:  return Q_INT64_C(90000000000000);
-    case uMCP:  return Q_INT64_C(90000000000000000);
+    case UNP:   return Q_INT64_C(90000000000);
+    case mUNP:  return Q_INT64_C(90000000000000);
+    case uUNP:  return Q_INT64_C(90000000000000000);
     case duffs: return Q_INT64_C(9000000000000000000);
     default:   return 0;
     }
@@ -117,9 +117,9 @@ int BitcoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case MCP: return 11;  //            90,000,000,000 (# digits, without commas)
-    case mMCP: return 14; //        90,000,000,000,000
-    case uMCP: return 17; //    90,000,000,000,000,000
+    case UNP: return 11;  //            90,000,000,000 (# digits, without commas)
+    case mUNP: return 14; //        90,000,000,000,000
+    case uUNP: return 17; //    90,000,000,000,000,000
     case duffs: return 19;// 9,000,000,000,000,000,000
     default: return 0;
     }
